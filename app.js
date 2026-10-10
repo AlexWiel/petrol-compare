@@ -19,7 +19,7 @@ const CONFIG = {
 const state = {
   data: null,
   fuel: localGet("fuel") || "DIE",
-  descending: localGet("sort") !== "asc", // Standard: absteigend
+  descending: localGet("sortOrder") === "desc", // Standard: aufsteigend (günstigste zuerst)
   history: null,
   days: Number(localGet("days") ?? 30),
 };
@@ -378,7 +378,7 @@ function infoModal() {
 
 document.querySelectorAll(".fuel-tab").forEach((btn) =>
   btn.addEventListener("click", () => { state.fuel = btn.dataset.fuel; localSet("fuel", state.fuel); render(); }));
-$("#btn-sort").addEventListener("click", () => { state.descending = !state.descending; localSet("sort", state.descending ? "desc" : "asc"); render(); });
+$("#btn-sort").addEventListener("click", () => { state.descending = !state.descending; localSet("sortOrder", state.descending ? "desc" : "asc"); render(); });
 $("#btn-info").addEventListener("click", infoModal);
 $("#list").addEventListener("click", (e) => { const b = e.target.closest(".station"); if (b) stationModal(b.dataset.id); });
 $("#history-range").addEventListener("click", (e) => {
