@@ -1,0 +1,34 @@
+name: Spritpreise aktualisieren
+
+on:
+  schedule:
+    # GitHub rechnet in UTC. Österreich = UTC+1 (Winter) bzw. UTC+2 (Sommer).
+    - cron: "0 7 * * *"    # Vormittag      – 08:00 MEZ / 09:00 MESZ
+    - cron: "30 11 * * *"  # Mittag         – 12:30 MEZ / 13:30 MESZ (nach der 12-Uhr-Preiserhöhung)
+    - cron: "0 15 * * *"   # Später Nachm.  – 16:00 MEZ / 17:00 MESZ
+  workflow_dispatch: {}    # manuell über den "Actions"-Tab startbar
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-prices
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Preise abrufen
+        run: node scripts/fetch-prices.mjs
+      - name: Änderungen committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/prices.json
+          git diff --cached --quiet || git commit -m "Spritpreise aktualisiert: $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git push
