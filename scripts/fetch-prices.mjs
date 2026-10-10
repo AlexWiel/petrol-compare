@@ -1,7 +1,7 @@
 // Holt die aktuellen Diesel- und Super-95-Preise rund um Klagenfurt Nord
 // vom offiziellen E-Control Spritpreisrechner und schreibt sie nach data/prices.json.
 // Wird von der GitHub Action (.github/workflows/update-prices.yml) aufgerufen.
-// Benötigt Node.js >= 18 (globales fetch), keine Abhängigkeiten.
+// Benötigt Node.js >= 18 (Action nutzt 24) (globales fetch), keine Abhängigkeiten.
 
 import { writeFile, mkdir } from "node:fs/promises";
 
