@@ -86,6 +86,27 @@
     <!-- List -->
     <ol id="list" class="mt-4 space-y-3"></ol>
 
+    <!-- Preisverlauf -->
+    <section class="glass mt-8 rounded-3xl p-4 sm:p-6" aria-labelledby="history-title">
+      <div class="flex flex-wrap items-center justify-between gap-3">
+        <div>
+          <h2 id="history-title" class="text-lg font-bold">Preisverlauf <span id="history-fuel" class="text-slate-400"></span></h2>
+          <p class="text-xs text-slate-400">Klagenfurt Nord · je Abruf (3× täglich)</p>
+        </div>
+        <div id="history-range" class="flex gap-1 rounded-full bg-white/5 p-1 text-xs font-semibold">
+          <button data-days="7" class="rounded-full px-3 py-1.5 transition">7 T</button>
+          <button data-days="30" class="rounded-full px-3 py-1.5 transition">30 T</button>
+          <button data-days="0" class="rounded-full px-3 py-1.5 transition">Alles</button>
+        </div>
+      </div>
+      <div id="history-legend" class="mt-4 flex flex-wrap gap-4 text-xs text-slate-300"></div>
+      <div id="history-chart" class="relative mt-2 select-none"></div>
+      <details class="mt-3 text-xs text-slate-400">
+        <summary class="cursor-pointer hover:text-slate-200">Als Tabelle anzeigen</summary>
+        <div id="history-table" class="mt-2 max-h-64 overflow-auto"></div>
+      </details>
+    </section>
+
     <footer class="mt-12 text-center text-xs leading-relaxed text-slate-500">
       Datenquelle: <a class="underline hover:text-slate-300" href="https://www.spritpreisrechner.at" target="_blank" rel="noopener">E-Control Spritpreisrechner</a>.
       Alle Angaben ohne Gewähr.<br>Automatische Aktualisierung vormittags, mittags und am späten Nachmittag.

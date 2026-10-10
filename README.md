@@ -9,7 +9,8 @@ Klagenfurt Nord vergleicht. Datenquelle: [E-Control Spritpreisrechner](https://w
 |---|---|
 | `index.html` | Die Seite (Tailwind CSS via CDN) – **muss genau so heißen** |
 | `app.js` | Laden, Sortieren, Anzeigen der Preise, Modals |
-| `data/prices.json` | Preisdaten, werden automatisch von der GitHub Action aktualisiert |
+| `data/prices.json` | Aktuelle Preisdaten, werden automatisch von der GitHub Action aktualisiert |
+| `data/history.json` | Preisverlauf: pro Abruf Günstigster/Ø/Teuerster und Einzelpreise je Tankstelle |
 | `scripts/fetch-prices.mjs` | Node-Skript, das die E-Control-API abfragt |
 | `.github/workflows/update-prices.yml` | Läuft 3× täglich (Vormittag, Mittag, später Nachmittag) |
 | `.nojekyll` | Verhindert, dass GitHub Pages Jekyll verwendet |
@@ -38,6 +39,13 @@ Ist `data/prices.json` leer oder älter als 8 Stunden, fragt die Seite die E-Con
 
 Hinweis: GitHub deaktiviert geplante Workflows in Repositories ohne Aktivität nach 60 Tagen – die automatischen
 Commits der Action zählen als Aktivität.
+
+## Preisverlauf
+
+Jeder Abruf der Action hängt einen Eintrag an `data/history.json` an (seit 10.10.2026). Die Seite zeigt daraus
+ein Diagramm mit günstigstem und durchschnittlichem Preis (7 Tage / 30 Tage / alles) samt Tabellenansicht.
+Mehrere Abrufe innerhalb von 30 Minuten (z. B. ein manueller Start) ersetzen den jeweils letzten Eintrag.
+Die Datei wächst um etwa 300 KB pro Jahr.
 
 ## Lokal testen
 
