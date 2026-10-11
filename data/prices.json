@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T16:42:15.712Z",
+  "updatedAt": "2026-10-11T19:23:08.032Z",
   "source": "E-Control Spritpreisrechner",
   "location": {
     "name": "Klagenfurt Nord",
@@ -18,7 +18,7 @@
         "longitude": 14.31387,
         "distance": 1.6081931169046637,
         "open": true,
-        "price": 2.101,
+        "price": 2.096,
         "openingHours": [
           {
             "label": "Montag",
@@ -82,7 +82,7 @@
         "longitude": 14.3022627,
         "distance": 2.0250959856211868,
         "open": true,
-        "price": 2.104,
+        "price": 2.097,
         "openingHours": [
           {
             "label": "Montag",
@@ -130,6 +130,70 @@
             "label": "Feiertag",
             "from": "06:00",
             "to": "23:30",
+            "order": 8
+          }
+        ],
+        "telephone": "+4372277104",
+        "website": "http://www.doppler.at"
+      },
+      {
+        "id": 1473270,
+        "name": "Turmöl",
+        "address": "St. Veiterstraße 203",
+        "postalCode": "9020",
+        "city": "Klagenfurt",
+        "latitude": 46.65320089,
+        "longitude": 14.3133874,
+        "distance": 1.5684451490548057,
+        "open": true,
+        "price": 2.101,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "06:00",
+            "to": "22:00",
             "order": 8
           }
         ],
@@ -274,7 +338,7 @@
         "longitude": 14.3126125,
         "distance": 1.3693731705680952,
         "open": true,
-        "price": 2.106,
+        "price": null,
         "openingHours": [
           {
             "label": "Montag",
@@ -393,70 +457,6 @@
         "website": null
       },
       {
-        "id": 1473270,
-        "name": "Turmöl",
-        "address": "St. Veiterstraße 203",
-        "postalCode": "9020",
-        "city": "Klagenfurt",
-        "latitude": 46.65320089,
-        "longitude": 14.3133874,
-        "distance": 1.5684451490548057,
-        "open": true,
-        "price": null,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 8
-          }
-        ],
-        "telephone": "+4372277104",
-        "website": "http://www.doppler.at"
-      },
-      {
         "id": 1474203,
         "name": "eni",
         "address": "St. Veiter-Strasse 61",
@@ -529,7 +529,7 @@
         "latitude": 46.6442357,
         "longitude": 14.31504931,
         "distance": 1.2674012714010956,
-        "open": true,
+        "open": false,
         "price": null,
         "openingHours": [
           {
@@ -1043,7 +1043,7 @@
         "latitude": 46.6442357,
         "longitude": 14.31504931,
         "distance": 1.2674012714010956,
-        "open": true,
+        "open": false,
         "price": null,
         "openingHours": [
           {
