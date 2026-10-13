@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T18:25:55.171Z",
+  "updatedAt": "2026-10-13T20:32:38.676Z",
   "source": "E-Control Spritpreisrechner",
   "location": {
     "name": "Klagenfurt Nord",
@@ -337,7 +337,7 @@
         "latitude": 46.65320089,
         "longitude": 14.3133874,
         "distance": 1.5684451490548057,
-        "open": true,
+        "open": false,
         "price": null,
         "openingHours": [
           {
@@ -465,7 +465,7 @@
         "latitude": 46.6442357,
         "longitude": 14.31504931,
         "distance": 1.2674012714010956,
-        "open": true,
+        "open": false,
         "price": null,
         "openingHours": [
           {
@@ -593,7 +593,7 @@
         "latitude": 46.6233,
         "longitude": 14.28377,
         "distance": 2.514438089603573,
-        "open": true,
+        "open": false,
         "price": null,
         "openingHours": [
           {
@@ -915,7 +915,7 @@
         "latitude": 46.65320089,
         "longitude": 14.3133874,
         "distance": 1.5684451490548057,
-        "open": true,
+        "open": false,
         "price": 1.847,
         "openingHours": [
           {
@@ -1043,7 +1043,7 @@
         "latitude": 46.6442357,
         "longitude": 14.31504931,
         "distance": 1.2674012714010956,
-        "open": true,
+        "open": false,
         "price": null,
         "openingHours": [
           {
@@ -1171,7 +1171,7 @@
         "latitude": 46.6233,
         "longitude": 14.28377,
         "distance": 2.514438089603573,
-        "open": true,
+        "open": false,
         "price": null,
         "openingHours": [
           {
