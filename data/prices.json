@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T22:25:04.424Z",
+  "updatedAt": "2026-10-13T14:45:06.923Z",
   "source": "E-Control Spritpreisrechner",
   "location": {
     "name": "Klagenfurt Nord",
@@ -9,70 +9,6 @@
   "fuels": {
     "DIE": [
       {
-        "id": 33385,
-        "name": "SOCAR Klagenfurt-St.Veiter-Straße",
-        "address": "St. Veiter Straße 94",
-        "postalCode": "9020",
-        "city": "Klagenfurt",
-        "latitude": 46.6359198,
-        "longitude": 14.3126125,
-        "distance": 1.3693731705680952,
-        "open": true,
-        "price": 2.142,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 8
-          }
-        ],
-        "telephone": "+433164111-0",
-        "website": "https://www.socarenergy.at/"
-      },
-      {
         "id": 1354852,
         "name": "JET TANKSTELLE",
         "address": "FELDKIRCHNERSTRASSE 130",
@@ -81,8 +17,8 @@
         "latitude": 46.640516,
         "longitude": 14.291635,
         "distance": 0.6209473967067908,
-        "open": false,
-        "price": 2.147,
+        "open": true,
+        "price": 2.165,
         "openingHours": [
           {
             "label": "Montag",
@@ -137,6 +73,326 @@
         "website": null
       },
       {
+        "id": 1474413,
+        "name": "Diskont Tankstelle",
+        "address": "Feldkirchner Strasse 221 (am HOFER Parkplatz)",
+        "postalCode": "9020",
+        "city": "Klagenfurt",
+        "latitude": 46.64932,
+        "longitude": 14.28436,
+        "distance": 1.2598584797545662,
+        "open": true,
+        "price": 2.169,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 8
+          }
+        ],
+        "telephone": "43800202055",
+        "website": "http://www.diskonttanken.at/"
+      },
+      {
+        "id": 492,
+        "name": "AVANTI - Klagenfurt St.Veiter Straße 258",
+        "address": "St.Veiter Strasse 258",
+        "postalCode": "9020",
+        "city": "Klagenfurt",
+        "latitude": 46.65337,
+        "longitude": 14.31387,
+        "distance": 1.6081931169046637,
+        "open": true,
+        "price": 2.169,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 8
+          }
+        ],
+        "telephone": "800202055",
+        "website": "www.omv.com"
+      },
+      {
+        "id": 267,
+        "name": "AVANTI - Klagenfurt Feldkirchnerstraße 275",
+        "address": "Feldkirchnerstrasse 275",
+        "postalCode": "9020",
+        "city": "Klagenfurt",
+        "latitude": 46.65383,
+        "longitude": 14.28047,
+        "distance": 1.794486957631403,
+        "open": true,
+        "price": 2.169,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 8
+          }
+        ],
+        "telephone": "800202055",
+        "website": "www.omv.com"
+      },
+      {
+        "id": 33385,
+        "name": "SOCAR Klagenfurt-St.Veiter-Straße",
+        "address": "St. Veiter Straße 94",
+        "postalCode": "9020",
+        "city": "Klagenfurt",
+        "latitude": 46.6359198,
+        "longitude": 14.3126125,
+        "distance": 1.3693731705680952,
+        "open": true,
+        "price": 2.177,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 8
+          }
+        ],
+        "telephone": "+433164111-0",
+        "website": "https://www.socarenergy.at/"
+      },
+      {
+        "id": 1473271,
+        "name": "Turmöl",
+        "address": "Villacher Ring 41",
+        "postalCode": "9020",
+        "city": "Klagenfurt",
+        "latitude": 46.6254895,
+        "longitude": 14.3022627,
+        "distance": 2.0250959856211868,
+        "open": true,
+        "price": null,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 8
+          }
+        ],
+        "telephone": "+4372277104",
+        "website": "http://www.doppler.at"
+      },
+      {
         "id": 1473270,
         "name": "Turmöl",
         "address": "St. Veiterstraße 203",
@@ -145,8 +401,8 @@
         "latitude": 46.65320089,
         "longitude": 14.3133874,
         "distance": 1.5684451490548057,
-        "open": false,
-        "price": 2.147,
+        "open": true,
+        "price": null,
         "openingHours": [
           {
             "label": "Montag",
@@ -209,8 +465,8 @@
         "latitude": 46.6442357,
         "longitude": 14.31504931,
         "distance": 1.2674012714010956,
-        "open": false,
-        "price": 2.159,
+        "open": true,
+        "price": null,
         "openingHours": [
           {
             "label": "Montag",
@@ -274,7 +530,7 @@
         "longitude": 14.3118,
         "distance": 1.3224230043849257,
         "open": true,
-        "price": 2.159,
+        "price": null,
         "openingHours": [
           {
             "label": "Montag",
@@ -329,134 +585,6 @@
         "website": null
       },
       {
-        "id": 492,
-        "name": "AVANTI - Klagenfurt St.Veiter Straße 258",
-        "address": "St.Veiter Strasse 258",
-        "postalCode": "9020",
-        "city": "Klagenfurt",
-        "latitude": 46.65337,
-        "longitude": 14.31387,
-        "distance": 1.6081931169046637,
-        "open": true,
-        "price": null,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 8
-          }
-        ],
-        "telephone": "800202055",
-        "website": "www.omv.com"
-      },
-      {
-        "id": 1473271,
-        "name": "Turmöl",
-        "address": "Villacher Ring 41",
-        "postalCode": "9020",
-        "city": "Klagenfurt",
-        "latitude": 46.6254895,
-        "longitude": 14.3022627,
-        "distance": 2.0250959856211868,
-        "open": false,
-        "price": null,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 8
-          }
-        ],
-        "telephone": "+4372277104",
-        "website": "http://www.doppler.at"
-      },
-      {
         "id": 449832,
         "name": "Shell Austria",
         "address": "KOSCHATSTRASSE 116 NORD",
@@ -465,7 +593,7 @@
         "latitude": 46.6233,
         "longitude": 14.28377,
         "distance": 2.514438089603573,
-        "open": false,
+        "open": true,
         "price": null,
         "openingHours": [
           {
@@ -519,266 +647,10 @@
         ],
         "telephone": "0463515988",
         "website": null
-      },
-      {
-        "id": 1474413,
-        "name": "Diskont Tankstelle",
-        "address": "Feldkirchner Strasse 221 (am HOFER Parkplatz)",
-        "postalCode": "9020",
-        "city": "Klagenfurt",
-        "latitude": 46.64932,
-        "longitude": 14.28436,
-        "distance": 1.2598584797545662,
-        "open": true,
-        "price": null,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 8
-          }
-        ],
-        "telephone": "43800202055",
-        "website": "http://www.diskonttanken.at/"
-      },
-      {
-        "id": 267,
-        "name": "AVANTI - Klagenfurt Feldkirchnerstraße 275",
-        "address": "Feldkirchnerstrasse 275",
-        "postalCode": "9020",
-        "city": "Klagenfurt",
-        "latitude": 46.65383,
-        "longitude": 14.28047,
-        "distance": 1.794486957631403,
-        "open": true,
-        "price": null,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 8
-          }
-        ],
-        "telephone": "800202055",
-        "website": "www.omv.com"
       }
     ],
     "SUP": [
       {
-        "id": 1354852,
-        "name": "JET TANKSTELLE",
-        "address": "FELDKIRCHNERSTRASSE 130",
-        "postalCode": "9020",
-        "city": "KLAGENFURT",
-        "latitude": 46.640516,
-        "longitude": 14.291635,
-        "distance": 0.6209473967067908,
-        "open": false,
-        "price": 1.809,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "05:00",
-            "to": "23:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "05:00",
-            "to": "23:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "05:00",
-            "to": "23:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "05:00",
-            "to": "23:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "05:00",
-            "to": "23:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "05:00",
-            "to": "23:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "06:00",
-            "to": "23:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "06:00",
-            "to": "23:00",
-            "order": 8
-          }
-        ],
-        "telephone": "0463419190",
-        "website": null
-      },
-      {
-        "id": 1473271,
-        "name": "Turmöl",
-        "address": "Villacher Ring 41",
-        "postalCode": "9020",
-        "city": "Klagenfurt",
-        "latitude": 46.6254895,
-        "longitude": 14.3022627,
-        "distance": 2.0250959856211868,
-        "open": false,
-        "price": 1.824,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 8
-          }
-        ],
-        "telephone": "+4372277104",
-        "website": "http://www.doppler.at"
-      },
-      {
         "id": 1474413,
         "name": "Diskont Tankstelle",
         "address": "Feldkirchner Strasse 221 (am HOFER Parkplatz)",
@@ -788,7 +660,7 @@
         "longitude": 14.28436,
         "distance": 1.2598584797545662,
         "open": true,
-        "price": 1.85,
+        "price": 1.859,
         "openingHours": [
           {
             "label": "Montag",
@@ -852,7 +724,7 @@
         "longitude": 14.31387,
         "distance": 1.6081931169046637,
         "open": true,
-        "price": 1.85,
+        "price": 1.859,
         "openingHours": [
           {
             "label": "Montag",
@@ -916,7 +788,7 @@
         "longitude": 14.28047,
         "distance": 1.794486957631403,
         "open": true,
-        "price": 1.85,
+        "price": 1.859,
         "openingHours": [
           {
             "label": "Montag",
@@ -971,6 +843,134 @@
         "website": "www.omv.com"
       },
       {
+        "id": 1354852,
+        "name": "JET TANKSTELLE",
+        "address": "FELDKIRCHNERSTRASSE 130",
+        "postalCode": "9020",
+        "city": "KLAGENFURT",
+        "latitude": 46.640516,
+        "longitude": 14.291635,
+        "distance": 0.6209473967067908,
+        "open": true,
+        "price": 1.864,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "05:00",
+            "to": "23:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "05:00",
+            "to": "23:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "05:00",
+            "to": "23:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "05:00",
+            "to": "23:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "05:00",
+            "to": "23:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "05:00",
+            "to": "23:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "06:00",
+            "to": "23:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "06:00",
+            "to": "23:00",
+            "order": 8
+          }
+        ],
+        "telephone": "0463419190",
+        "website": null
+      },
+      {
+        "id": 1473271,
+        "name": "Turmöl",
+        "address": "Villacher Ring 41",
+        "postalCode": "9020",
+        "city": "Klagenfurt",
+        "latitude": 46.6254895,
+        "longitude": 14.3022627,
+        "distance": 2.0250959856211868,
+        "open": true,
+        "price": 1.878,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 8
+          }
+        ],
+        "telephone": "+4372277104",
+        "website": "http://www.doppler.at"
+      },
+      {
         "id": 1473270,
         "name": "Turmöl",
         "address": "St. Veiterstraße 203",
@@ -979,7 +979,7 @@
         "latitude": 46.65320089,
         "longitude": 14.3133874,
         "distance": 1.5684451490548057,
-        "open": false,
+        "open": true,
         "price": null,
         "openingHours": [
           {
@@ -1033,70 +1033,6 @@
         ],
         "telephone": "+4372277104",
         "website": "http://www.doppler.at"
-      },
-      {
-        "id": 449832,
-        "name": "Shell Austria",
-        "address": "KOSCHATSTRASSE 116 NORD",
-        "postalCode": "9020",
-        "city": "KLAGENFURT",
-        "latitude": 46.6233,
-        "longitude": 14.28377,
-        "distance": 2.514438089603573,
-        "open": false,
-        "price": null,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 8
-          }
-        ],
-        "telephone": "0463515988",
-        "website": null
       },
       {
         "id": 33385,
@@ -1171,7 +1107,7 @@
         "latitude": 46.6442357,
         "longitude": 14.31504931,
         "distance": 1.2674012714010956,
-        "open": false,
+        "open": true,
         "price": null,
         "openingHours": [
           {
@@ -1288,6 +1224,70 @@
           }
         ],
         "telephone": "0463440392",
+        "website": null
+      },
+      {
+        "id": 449832,
+        "name": "Shell Austria",
+        "address": "KOSCHATSTRASSE 116 NORD",
+        "postalCode": "9020",
+        "city": "KLAGENFURT",
+        "latitude": 46.6233,
+        "longitude": 14.28377,
+        "distance": 2.514438089603573,
+        "open": true,
+        "price": null,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 8
+          }
+        ],
+        "telephone": "0463515988",
         "website": null
       }
     ]
