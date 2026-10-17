@@ -1,4 +1,4 @@
-# ⛽ Spritpreise Klagenfurt Nord
+# ⛽ Spritpreise Klagenfurt Nord & Tamsweg
 
 Statische Website (GitHub Pages), die die aktuellen **Diesel**- und **Super-95**-Preise der Tankstellen rund um
 Klagenfurt Nord vergleicht. Datenquelle: [E-Control Spritpreisrechner](https://www.spritpreisrechner.at).
@@ -7,13 +7,28 @@ Klagenfurt Nord vergleicht. Datenquelle: [E-Control Spritpreisrechner](https://w
 
 | Datei | Zweck |
 |---|---|
-| `index.html` | Die Seite (Tailwind CSS via CDN) – **muss genau so heißen** |
-| `app.js` | Laden, Sortieren, Anzeigen der Preise, Modals |
+| `index.html` | Seite Klagenfurt Nord (Tailwind CSS via CDN) – **muss genau so heißen** |
+| `tamsweg/index.html` | Seite Tamsweg (gleicher Code, `data-location="tamsweg"`) |
+| `locations.json` | Alle Standorte: Name, Koordinaten, Unterseite, Datenordner |
+| `app.js` | Laden, Sortieren, Anzeigen der Preise, Modals – für alle Standorte |
 | `data/prices.json` | Aktuelle Preisdaten, werden automatisch von der GitHub Action aktualisiert |
 | `data/history.json` | Preisverlauf: pro Abruf Günstigster/Ø/Teuerster und Einzelpreise je Tankstelle |
+| `data/tamsweg/…` | Dasselbe für Tamsweg |
 | `scripts/fetch-prices.mjs` | Node-Skript, das die E-Control-API abfragt |
 | `.github/workflows/update-prices.yml` | Läuft 3× täglich (Vormittag, Mittag, später Nachmittag) |
 | `.nojekyll` | Verhindert, dass GitHub Pages Jekyll verwendet |
+
+## Standorte
+
+| Standort | URL |
+|---|---|
+| Klagenfurt Nord | `https://<benutzername>.github.io/petrol-compare/` |
+| Tamsweg | `https://<benutzername>.github.io/petrol-compare/tamsweg/` |
+
+Weiteren Standort hinzufügen:
+1. Eintrag in `locations.json` (`id`, `name`, `path` = Unterordner mit `/`, `dataDir`, `latitude`, `longitude`).
+2. `tamsweg/index.html` in den neuen Ordner kopieren und `data-location`, `<title>` und Meta-Description anpassen.
+3. Die Action legt beim nächsten Lauf `data/<ort>/prices.json` und `history.json` automatisch an.
 
 ## Auf GitHub Pages veröffentlichen
 

@@ -1,18 +1,18 @@
-// Holt die aktuellen Diesel- und Super-95-Preise rund um Klagenfurt Nord
-// vom offiziellen E-Control Spritpreisrechner und schreibt sie nach data/prices.json.
+// Holt für jeden Standort aus locations.json die aktuellen Diesel- und Super-95-Preise
+// vom offiziellen E-Control Spritpreisrechner und schreibt sie nach <dataDir>/prices.json
+// sowie den Preisverlauf nach <dataDir>/history.json.
 // Wird von der GitHub Action (.github/workflows/update-prices.yml) aufgerufen.
 // Benötigt Node.js >= 18 (Action nutzt 24) (globales fetch), keine Abhängigkeiten.
 
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 
-const LOCATION = { name: "Klagenfurt Nord", latitude: 46.6435, longitude: 14.2985 };
 const FUELS = { DIE: "Diesel", SUP: "Super 95" };
 const API = "https://api.e-control.at/sprit/1.0/search/gas-stations/by-address";
-const OUT = new URL("../data/prices.json", import.meta.url);
-const HISTORY = new URL("../data/history.json", import.meta.url);
+const ROOT = new URL("../", import.meta.url);
+const LOCATIONS = JSON.parse(await readFile(new URL("locations.json", ROOT), "utf8"));
 
-async function fetchFuel(fuelType, attempt = 1) {
-  const url = `${API}?latitude=${LOCATION.latitude}&longitude=${LOCATION.longitude}&fuelType=${fuelType}&includeClosed=true`;
+async function fetchFuel(loc, fuelType, attempt = 1) {
+  const url = `${API}?latitude=${loc.latitude}&longitude=${loc.longitude}&fuelType=${fuelType}&includeClosed=true`;
   try {
     const res = await fetch(url, { headers: { Accept: "application/json" } });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -22,7 +22,7 @@ async function fetchFuel(fuelType, attempt = 1) {
     const wait = 2 ** attempt * 1000;
     console.warn(`${fuelType}: ${err.message} – neuer Versuch in ${wait / 1000}s`);
     await new Promise((r) => setTimeout(r, wait));
-    return fetchFuel(fuelType, attempt + 1);
+    return fetchFuel(loc, fuelType, attempt + 1);
   }
 }
 
@@ -47,30 +47,47 @@ function normalize(station, fuelType) {
   };
 }
 
-const fuels = {};
-for (const fuelType of Object.keys(FUELS)) {
-  const stations = await fetchFuel(fuelType);
-  fuels[fuelType] = stations.map((s) => normalize(s, fuelType));
-  console.log(`${FUELS[fuelType]}: ${fuels[fuelType].length} Tankstellen`);
+async function updateLocation(loc) {
+  const fuels = {};
+  for (const fuelType of Object.keys(FUELS)) {
+    const stations = await fetchFuel(loc, fuelType);
+    fuels[fuelType] = stations.map((s) => normalize(s, fuelType));
+    console.log(`${loc.name} – ${FUELS[fuelType]}: ${fuels[fuelType].length} Tankstellen`);
+  }
+
+  const dir = new URL(`${loc.dataDir}/`, ROOT);
+  const location = { name: loc.name, latitude: loc.latitude, longitude: loc.longitude };
+  const updatedAt = new Date().toISOString();
+  await mkdir(dir, { recursive: true });
+  await writeFile(
+    new URL("prices.json", dir),
+    JSON.stringify({ updatedAt, source: "E-Control Spritpreisrechner", location, fuels }, null, 2) + "\n",
+  );
+  console.log(`${loc.dataDir}/prices.json geschrieben`);
+
+  // Preisverlauf: pro Abruf ein Eintrag mit Min/Ø/Max und den Einzelpreisen je Tankstelle.
+  const historyFile = new URL("history.json", dir);
+  let history = { location: loc.name, stations: {}, entries: [] };
+  try {
+    history = JSON.parse(await readFile(historyFile, "utf8"));
+  } catch {
+    console.log(`${loc.dataDir}/history.json existiert noch nicht – wird angelegt`);
+  }
+  await writeFile(historyFile, JSON.stringify(appendHistory(history, updatedAt, fuels)) + "\n");
+  console.log(`${loc.dataDir}/history.json: ${history.entries.length} Einträge`);
 }
 
-const updatedAt = new Date().toISOString();
-await mkdir(new URL("../data/", import.meta.url), { recursive: true });
-await writeFile(
-  OUT,
-  JSON.stringify({ updatedAt, source: "E-Control Spritpreisrechner", location: LOCATION, fuels }, null, 2) + "\n",
-);
-console.log("data/prices.json geschrieben");
-
-// Preisverlauf: pro Abruf ein Eintrag mit Min/Ø/Max und den Einzelpreisen je Tankstelle.
-let history = { location: LOCATION.name, stations: {}, entries: [] };
-try {
-  history = JSON.parse(await readFile(HISTORY, "utf8"));
-} catch {
-  console.log("data/history.json existiert noch nicht – wird angelegt");
+// Ein fehlgeschlagener Standort hält die anderen nicht auf; die Action wird trotzdem rot.
+let failed = 0;
+for (const loc of LOCATIONS) {
+  try {
+    await updateLocation(loc);
+  } catch (err) {
+    failed++;
+    console.error(`${loc.name}: Abruf fehlgeschlagen – ${err.message}`);
+  }
 }
-await writeFile(HISTORY, JSON.stringify(appendHistory(history, updatedAt, fuels)) + "\n");
-console.log(`data/history.json: ${history.entries.length} Einträge`);
+if (failed) process.exitCode = 1;
 
 export function appendHistory(history, t, fuels) {
   const entry = { t };

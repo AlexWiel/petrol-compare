@@ -26,9 +26,10 @@ jobs:
       - name: Preise abrufen
         run: node scripts/fetch-prices.mjs
       - name: Änderungen committen
+        if: ${{ !cancelled() }}  # Daten erfolgreicher Standorte auch bei einem Teilfehler speichern
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/prices.json data/history.json
+          git add data/
           git diff --cached --quiet || git commit -m "Spritpreise aktualisiert: $(date -u +'%Y-%m-%d %H:%M') UTC"
           git push

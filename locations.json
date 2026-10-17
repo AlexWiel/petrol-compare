@@ -1,0 +1,4 @@
+[
+  { "id": "klagenfurt-nord", "name": "Klagenfurt Nord", "path": "", "dataDir": "data", "latitude": 46.6435, "longitude": 14.2985 },
+  { "id": "tamsweg", "name": "Tamsweg", "path": "tamsweg/", "dataDir": "data/tamsweg", "latitude": 47.1283, "longitude": 13.8106 }
+]
