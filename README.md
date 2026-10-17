@@ -1,4 +1,4 @@
-# ⛽ Spritpreise Klagenfurt Nord
+# ⛽ Spritpreise Klagenfurt Nord & Tamsweg
 
 Statische Website (GitHub Pages), die die aktuellen **Diesel**- und **Super-95**-Preise der Tankstellen rund um
 Klagenfurt Nord vergleicht. Datenquelle: [E-Control Spritpreisrechner](https://www.spritpreisrechner.at).
@@ -7,13 +7,28 @@ Klagenfurt Nord vergleicht. Datenquelle: [E-Control Spritpreisrechner](https://w
 
 | Datei | Zweck |
 |---|---|
-| `index.html` | Die Seite (Tailwind CSS via CDN) – **muss genau so heißen** |
-| `app.js` | Laden, Sortieren, Anzeigen der Preise, Modals |
+| `index.html` | Seite Klagenfurt Nord (Tailwind CSS via CDN) – **muss genau so heißen** |
+| `tamsweg/index.html` | Seite Tamsweg (gleicher Code, `data-location="tamsweg"`) |
+| `locations.json` | Alle Standorte: Name, Koordinaten, Unterseite, Datenordner |
+| `app.js` | Laden, Sortieren, Anzeigen der Preise, Modals – für alle Standorte |
 | `data/prices.json` | Aktuelle Preisdaten, werden automatisch von der GitHub Action aktualisiert |
 | `data/history.json` | Preisverlauf: pro Abruf Günstigster/Ø/Teuerster und Einzelpreise je Tankstelle |
+| `data/tamsweg/…` | Dasselbe für Tamsweg |
 | `scripts/fetch-prices.mjs` | Node-Skript, das die E-Control-API abfragt |
 | `.github/workflows/update-prices.yml` | Läuft 3× täglich (Vormittag, Mittag, später Nachmittag) |
 | `.nojekyll` | Verhindert, dass GitHub Pages Jekyll verwendet |
+
+## Standorte
+
+| Standort | URL |
+|---|---|
+| Klagenfurt Nord | `https://<benutzername>.github.io/petrol-compare/` |
+| Tamsweg | `https://<benutzername>.github.io/petrol-compare/tamsweg/` |
+
+Weiteren Standort hinzufügen:
+1. Eintrag in `locations.json` (`id`, `name`, `path` = Unterordner mit `/`, `dataDir`, `latitude`, `longitude`).
+2. `tamsweg/index.html` in den neuen Ordner kopieren und `data-location`, `<title>` und Meta-Description anpassen.
+3. Die Action legt beim nächsten Lauf `data/<ort>/prices.json` und `history.json` automatisch an.
 
 ## Auf GitHub Pages veröffentlichen
 
@@ -26,16 +41,19 @@ Klagenfurt Nord vergleicht. Datenquelle: [E-Control Spritpreisrechner](https://w
 
 ## Aktualisierungszeiten
 
-GitHub-Cron läuft in UTC (Ausführung kann sich um einige Minuten verzögern):
+Abgerufen wird einmal je Zeitfenster (österreichische Zeit, Sommer-/Winterzeit automatisch):
 
-| Cron (UTC) | Winterzeit (MEZ) | Sommerzeit (MESZ) |
-|---|---|---|
-| `0 7 * * *` | 08:00 | 09:00 |
-| `30 11 * * *` | 12:30 | 13:30 |
-| `0 15 * * *` | 16:00 | 17:00 |
+| Fenster | Zeit |
+|---|---|
+| Vormittag | 08:00–12:00 |
+| Mittag | 12:00–16:00 (Preiserhöhungen sind nur um 12:00 erlaubt) |
+| Später Nachmittag | 16:00–20:00 |
 
-Der Mittagslauf liegt bewusst nach 12:00 Uhr, da österreichische Tankstellen ihre Preise nur dann erhöhen dürfen.
-Ist `data/prices.json` leer oder älter als 8 Stunden, fragt die Seite die E-Control zusätzlich direkt im Browser ab.
+GitHub startet geplante Läufe oft mit stundenlanger Verspätung. Die Action läuft deshalb **stündlich**
+(`17 * * * *`), und `scripts/fetch-prices.mjs` ruft nur ab, wenn im aktuellen Fenster für den Standort noch kein
+Abruf in `history.json` steht – sonst endet der Lauf ohne Commit. Ein manueller Start („Run workflow“) ruft immer ab.
+
+Ist `data/prices.json` leer oder älter als 14 Stunden, fragt die Seite die E-Control zusätzlich direkt im Browser ab.
 
 Hinweis: GitHub deaktiviert geplante Workflows in Repositories ohne Aktivität nach 60 Tagen – die automatischen
 Commits der Action zählen als Aktivität.

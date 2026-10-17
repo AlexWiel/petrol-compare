@@ -2,11 +2,11 @@ name: Spritpreise aktualisieren
 
 on:
   schedule:
-    # GitHub rechnet in UTC. Österreich = UTC+1 (Winter) bzw. UTC+2 (Sommer).
-    - cron: "0 7 * * *"    # Vormittag      – 08:00 MEZ / 09:00 MESZ
-    - cron: "30 11 * * *"  # Mittag         – 12:30 MEZ / 13:30 MESZ (nach der 12-Uhr-Preiserhöhung)
-    - cron: "0 15 * * *"   # Später Nachm.  – 16:00 MEZ / 17:00 MESZ
-  workflow_dispatch: {}    # manuell über den "Actions"-Tab startbar
+    # Stündlich zu einer krummen Minute (zur vollen Stunde ist GitHub am stärksten ausgelastet).
+    # GitHub startet geplante Läufe oft Stunden verspätet – das Skript ruft daher nur ab, wenn im
+    # aktuellen Zeitfenster (Wiener Zeit: 8–12, 12–16, 16–20 Uhr) noch kein Abruf erfolgt ist.
+    - cron: "17 * * * *"
+  workflow_dispatch: {}    # manuell über den "Actions"-Tab startbar – ruft immer ab
 
 permissions:
   contents: write
@@ -24,11 +24,14 @@ jobs:
         with:
           node-version: 24
       - name: Preise abrufen
-        run: node scripts/fetch-prices.mjs
+        run: node scripts/fetch-prices.mjs ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
       - name: Änderungen committen
+        if: ${{ !cancelled() }}  # Daten erfolgreicher Standorte auch bei einem Teilfehler speichern
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/prices.json data/history.json
-          git diff --cached --quiet || git commit -m "Spritpreise aktualisiert: $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git add data/
+          git diff --cached --quiet && exit 0
+          git commit -m "Spritpreise aktualisiert: $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git pull --rebase origin main  # falls main inzwischen weitergegangen ist (z. B. gemergter PR)
           git push
