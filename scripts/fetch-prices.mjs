@@ -9,6 +9,17 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 const FUELS = { DIE: "Diesel", SUP: "Super 95" };
 const API = "https://api.e-control.at/sprit/1.0/search/gas-stations/by-address";
 const ROOT = new URL("../", import.meta.url);
+
+// Abrufzeitfenster in österreichischer Zeit – pro Fenster und Standort höchstens ein Abruf am Tag.
+// GitHub startet geplante Läufe oft Stunden zu spät; deshalb läuft die Action stündlich und das
+// Skript entscheidet hier selbst, ob im aktuellen Fenster noch abgerufen werden muss.
+// Gleiche Fenster stehen in app.js (CONFIG.windows) für die Anzeige.
+const WINDOWS = [
+  { label: "Vormittag", from: 8, to: 12 },
+  { label: "Mittag", from: 12, to: 16 }, // Preiserhöhungen sind in Österreich nur um 12:00 erlaubt
+  { label: "Später Nachmittag", from: 16, to: 20 },
+];
+const FORCE = process.argv.includes("--force"); // manueller Start: immer abrufen
 const LOCATIONS = JSON.parse(await readFile(new URL("locations.json", ROOT), "utf8"));
 
 async function fetchFuel(loc, fuelType, attempt = 1) {
@@ -78,8 +89,42 @@ async function updateLocation(loc) {
 }
 
 // Ein fehlgeschlagener Standort hält die anderen nicht auf; die Action wird trotzdem rot.
+// Liefert z. B. "2026-10-17#1" für das Mittagsfenster am 17.10. (Wiener Zeit), außerhalb aller Fenster null.
+function slotOf(date) {
+  const parts = Object.fromEntries(
+    new Intl.DateTimeFormat("en-CA", {
+      timeZone: "Europe/Vienna", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", hourCycle: "h23",
+    }).formatToParts(date).map((p) => [p.type, p.value]),
+  );
+  const hour = Number(parts.hour);
+  const i = WINDOWS.findIndex((w) => hour >= w.from && hour < w.to);
+  return i < 0 ? null : `${parts.year}-${parts.month}-${parts.day}#${i}`;
+}
+
+async function lastFetch(loc) {
+  try {
+    const history = JSON.parse(await readFile(new URL(`${loc.dataDir}/history.json`, ROOT), "utf8"));
+    const last = history.entries.at(-1);
+    return last ? new Date(last.t) : null;
+  } catch {
+    return null;
+  }
+}
+
+const now = new Date();
+const slot = slotOf(now);
+if (!FORCE && !slot) console.log("Außerhalb der Abrufzeitfenster – nichts zu tun.");
+
 let failed = 0;
 for (const loc of LOCATIONS) {
+  if (!FORCE) {
+    if (!slot) break;
+    const last = await lastFetch(loc);
+    if (last && slotOf(last) === slot) {
+      console.log(`${loc.name}: im Fenster „${WINDOWS[slot.split("#")[1]].label}“ schon abgerufen – übersprungen.`);
+      continue;
+    }
+  }
   try {
     await updateLocation(loc);
   } catch (err) {

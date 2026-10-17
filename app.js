@@ -11,14 +11,14 @@ const CONFIG = {
   dataUrl: null,
   historyUrl: null,
   liveApi: "https://api.e-control.at/sprit/1.0/search/gas-stations/by-address",
-  // Muss zu den Cron-Zeiten in .github/workflows/update-prices.yml passen (UTC).
-  scheduleUtc: [[7, 0], [11, 30], [15, 0]],
+  // Abrufzeitfenster (Wiener Zeit) – müssen zu WINDOWS in scripts/fetch-prices.mjs passen.
+  windows: [{ from: 8, to: 12 }, { from: 12, to: 16 }, { from: 16, to: 20 }],
   fuels: {
     DIE: { label: "Diesel", accent: "amber", from: "from-amber-400", to: "to-orange-500", text: "text-amber-300" },
     SUP: { label: "Super 95", accent: "emerald", from: "from-emerald-400", to: "to-teal-500", text: "text-emerald-300" },
   },
-  // Wenn die Datei älter ist, wird zusätzlich live bei der E-Control abgefragt.
-  maxAgeHours: 8,
+  // Wenn die Datei älter ist, wird zusätzlich live bei der E-Control abgefragt (Nachtpause 20–8 Uhr beachten).
+  maxAgeHours: 14,
   pageRefreshMinutes: 15,
 };
 
@@ -123,15 +123,13 @@ async function load() {
 
 /* ---------- Rendering ---------- */
 
-function nextUpdate(now = new Date()) {
-  const candidates = [];
-  for (let day = 0; day < 2; day++) {
-    for (const [h, m] of CONFIG.scheduleUtc) {
-      const d = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + day, h, m));
-      if (d > now) candidates.push(d);
-    }
-  }
-  return candidates.sort((a, b) => a - b)[0];
+const fmtHour = (h) => `${String(h).padStart(2, "0")}:00`;
+
+// Beginn des nächsten Abrufzeitfensters in Wiener Zeit, z. B. „heute ab 12:00 Uhr“.
+function nextUpdateText(now = new Date()) {
+  const hour = Number(new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Vienna", hour: "2-digit", hourCycle: "h23" }).format(now));
+  const next = CONFIG.windows.find((w) => w.from > hour);
+  return next ? `heute ab ${fmtHour(next.from)} Uhr` : `morgen ab ${fmtHour(CONFIG.windows[0].from)} Uhr`;
 }
 
 function renderTabs() {
@@ -175,8 +173,7 @@ function renderList() {
 
   const updated = new Date(state.data.updatedAt);
   $("#updated").textContent = `Stand: ${fmtTime(updated)}${state.data.live ? " (live)" : ""}`;
-  const nu = nextUpdate();
-  $("#next-update").textContent = nu ? `Nächste Aktualisierung: ${fmtTime(nu)}` : "";
+  $("#next-update").textContent = `Nächste Aktualisierung: ${nextUpdateText()}`;
 
   const stations = state.data.fuels?.[state.fuel] || [];
   const priced = stations.filter((s) => typeof s.price === "number");
@@ -391,10 +388,7 @@ function stationModal(id) {
 }
 
 function infoModal() {
-  const times = CONFIG.scheduleUtc.map(([h, m]) => {
-    const d = new Date(); d.setUTCHours(h, m, 0, 0);
-    return d.toLocaleTimeString("de-AT", { timeZone: "Europe/Vienna", hour: "2-digit", minute: "2-digit" });
-  });
+  const times = CONFIG.windows.map((w) => `${fmtHour(w.from)}–${fmtHour(w.to)}`);
   openModal(`
     <p class="text-xs font-semibold uppercase tracking-widest text-cyan-300/80">Info</p>
     <h2 class="mt-1 text-2xl font-extrabold">Über diese Seite</h2>
@@ -402,8 +396,8 @@ function infoModal() {
       <p>Verglichen werden <strong>Diesel</strong> und <strong>Super 95</strong> der öffentlichen Tankstellen im Umkreis von
       <strong>${esc(CONFIG.location?.name ?? "–")}</strong>. Die Daten stammen aus dem amtlichen
       <a class="underline" href="https://www.spritpreisrechner.at" target="_blank" rel="noopener">Spritpreisrechner der E-Control</a>.</p>
-      <p>Die Preise werden automatisch dreimal täglich aktualisiert – heute um ca. <strong>${times.join(", ")} Uhr</strong>
-      (Vormittag, Mittag, später Nachmittag). In Österreich dürfen Tankstellen ihre Preise nur einmal täglich um 12:00 Uhr erhöhen.</p>
+      <p>Die Preise werden automatisch dreimal täglich aktualisiert – je einmal in den Zeitfenstern
+      <strong>${times.join(", ")} Uhr</strong> (Vormittag, Mittag, später Nachmittag). In Österreich dürfen Tankstellen ihre Preise nur einmal täglich um 12:00 Uhr erhöhen.</p>
       <p class="text-xs text-slate-500">Hinweis: Die E-Control veröffentlicht je Abfrage nur eine begrenzte Anzahl an Tankstellen.
       Alle Angaben ohne Gewähr.</p>
     </div>`);
