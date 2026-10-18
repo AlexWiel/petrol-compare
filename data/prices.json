@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T14:14:59.723Z",
+  "updatedAt": "2026-10-18T06:00:10.423Z",
   "source": "E-Control Spritpreisrechner",
   "location": {
     "name": "Klagenfurt Nord",
@@ -8,6 +8,70 @@
   },
   "fuels": {
     "DIE": [
+      {
+        "id": 1473271,
+        "name": "Turmöl",
+        "address": "Villacher Ring 41",
+        "postalCode": "9020",
+        "city": "Klagenfurt",
+        "latitude": 46.6254895,
+        "longitude": 14.3022627,
+        "distance": 2.0250959856211868,
+        "open": true,
+        "price": 2.086,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 8
+          }
+        ],
+        "telephone": "+4372277104",
+        "website": "http://www.doppler.at"
+      },
       {
         "id": 1474413,
         "name": "Diskont Tankstelle",
@@ -210,7 +274,7 @@
         "longitude": 14.291635,
         "distance": 0.6209473967067908,
         "open": true,
-        "price": 2.094,
+        "price": 2.092,
         "openingHours": [
           {
             "label": "Montag",
@@ -274,7 +338,7 @@
         "longitude": 14.3133874,
         "distance": 1.5684451490548057,
         "open": true,
-        "price": 2.094,
+        "price": null,
         "openingHours": [
           {
             "label": "Montag",
@@ -322,70 +386,6 @@
             "label": "Feiertag",
             "from": "06:00",
             "to": "22:00",
-            "order": 8
-          }
-        ],
-        "telephone": "+4372277104",
-        "website": "http://www.doppler.at"
-      },
-      {
-        "id": 1473271,
-        "name": "Turmöl",
-        "address": "Villacher Ring 41",
-        "postalCode": "9020",
-        "city": "Klagenfurt",
-        "latitude": 46.6254895,
-        "longitude": 14.3022627,
-        "distance": 2.0250959856211868,
-        "open": true,
-        "price": 2.094,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "06:00",
-            "to": "23:30",
             "order": 8
           }
         ],
@@ -651,6 +651,198 @@
     ],
     "SUP": [
       {
+        "id": 1473271,
+        "name": "Turmöl",
+        "address": "Villacher Ring 41",
+        "postalCode": "9020",
+        "city": "Klagenfurt",
+        "latitude": 46.6254895,
+        "longitude": 14.3022627,
+        "distance": 2.0250959856211868,
+        "open": true,
+        "price": 1.782,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 8
+          }
+        ],
+        "telephone": "+4372277104",
+        "website": "http://www.doppler.at"
+      },
+      {
+        "id": 33385,
+        "name": "SOCAR Klagenfurt-St.Veiter-Straße",
+        "address": "St. Veiter Straße 94",
+        "postalCode": "9020",
+        "city": "Klagenfurt",
+        "latitude": 46.6359198,
+        "longitude": 14.3126125,
+        "distance": 1.3693731705680952,
+        "open": true,
+        "price": 1.787,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 8
+          }
+        ],
+        "telephone": "+433164111-0",
+        "website": "https://www.socarenergy.at/"
+      },
+      {
+        "id": 1354852,
+        "name": "JET TANKSTELLE",
+        "address": "FELDKIRCHNERSTRASSE 130",
+        "postalCode": "9020",
+        "city": "KLAGENFURT",
+        "latitude": 46.640516,
+        "longitude": 14.291635,
+        "distance": 0.6209473967067908,
+        "open": true,
+        "price": 1.789,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "05:00",
+            "to": "23:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "05:00",
+            "to": "23:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "05:00",
+            "to": "23:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "05:00",
+            "to": "23:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "05:00",
+            "to": "23:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "05:00",
+            "to": "23:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "06:00",
+            "to": "23:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "06:00",
+            "to": "23:00",
+            "order": 8
+          }
+        ],
+        "telephone": "0463419190",
+        "website": null
+      },
+      {
         "id": 1474413,
         "name": "Diskont Tankstelle",
         "address": "Feldkirchner Strasse 221 (am HOFER Parkplatz)",
@@ -841,198 +1033,6 @@
         ],
         "telephone": "800202055",
         "website": "www.omv.com"
-      },
-      {
-        "id": 1354852,
-        "name": "JET TANKSTELLE",
-        "address": "FELDKIRCHNERSTRASSE 130",
-        "postalCode": "9020",
-        "city": "KLAGENFURT",
-        "latitude": 46.640516,
-        "longitude": 14.291635,
-        "distance": 0.6209473967067908,
-        "open": true,
-        "price": 1.793,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "05:00",
-            "to": "23:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "05:00",
-            "to": "23:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "05:00",
-            "to": "23:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "05:00",
-            "to": "23:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "05:00",
-            "to": "23:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "05:00",
-            "to": "23:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "06:00",
-            "to": "23:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "06:00",
-            "to": "23:00",
-            "order": 8
-          }
-        ],
-        "telephone": "0463419190",
-        "website": null
-      },
-      {
-        "id": 33385,
-        "name": "SOCAR Klagenfurt-St.Veiter-Straße",
-        "address": "St. Veiter Straße 94",
-        "postalCode": "9020",
-        "city": "Klagenfurt",
-        "latitude": 46.6359198,
-        "longitude": 14.3126125,
-        "distance": 1.3693731705680952,
-        "open": true,
-        "price": 1.793,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 8
-          }
-        ],
-        "telephone": "+433164111-0",
-        "website": "https://www.socarenergy.at/"
-      },
-      {
-        "id": 1473271,
-        "name": "Turmöl",
-        "address": "Villacher Ring 41",
-        "postalCode": "9020",
-        "city": "Klagenfurt",
-        "latitude": 46.6254895,
-        "longitude": 14.3022627,
-        "distance": 2.0250959856211868,
-        "open": true,
-        "price": 1.793,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 8
-          }
-        ],
-        "telephone": "+4372277104",
-        "website": "http://www.doppler.at"
       },
       {
         "id": 1473270,
