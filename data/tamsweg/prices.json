@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T11:18:23.947Z",
+  "updatedAt": "2026-10-18T15:56:35.485Z",
   "source": "E-Control Spritpreisrechner",
   "location": {
     "name": "Tamsweg",
@@ -329,6 +329,70 @@
         "website": null
       },
       {
+        "id": 280,
+        "name": "OMV - Sankt Michael im Lungau Bundesstraße 112",
+        "address": "Bundesstrasse 112",
+        "postalCode": "5582",
+        "city": "Sankt Michael im Lungau",
+        "latitude": 47.09406,
+        "longitude": 13.67553,
+        "distance": 10.919617226499852,
+        "open": true,
+        "price": 2.159,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 8
+          }
+        ],
+        "telephone": "06477 8908",
+        "website": "www.omv.com"
+      },
+      {
         "id": 27330,
         "name": "Lagerhaus-Tankstelle 24 h",
         "address": "Wöltingerstrasse 9a",
@@ -391,70 +455,6 @@
         ],
         "telephone": "4364746152",
         "website": "http://www.salzburger-lagerhaus.at"
-      },
-      {
-        "id": 280,
-        "name": "OMV - Sankt Michael im Lungau Bundesstraße 112",
-        "address": "Bundesstrasse 112",
-        "postalCode": "5582",
-        "city": "Sankt Michael im Lungau",
-        "latitude": 47.09406,
-        "longitude": 13.67553,
-        "distance": 10.919617226499852,
-        "open": true,
-        "price": null,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 8
-          }
-        ],
-        "telephone": "06477 8908",
-        "website": "www.omv.com"
       },
       {
         "id": 33986,
@@ -907,70 +907,6 @@
         "website": null
       },
       {
-        "id": 27330,
-        "name": "Lagerhaus-Tankstelle 24 h",
-        "address": "Wöltingerstrasse 9a",
-        "postalCode": "5580",
-        "city": "Tamsweg",
-        "latitude": 47.1346161,
-        "longitude": 13.8082987,
-        "distance": 0.7242637082073807,
-        "open": true,
-        "price": 1.889,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 8
-          }
-        ],
-        "telephone": "4364746152",
-        "website": "http://www.salzburger-lagerhaus.at"
-      },
-      {
         "id": 280,
         "name": "OMV - Sankt Michael im Lungau Bundesstraße 112",
         "address": "Bundesstrasse 112",
@@ -980,7 +916,7 @@
         "longitude": 13.67553,
         "distance": 10.919617226499852,
         "open": true,
-        "price": null,
+        "price": 1.819,
         "openingHours": [
           {
             "label": "Montag",
@@ -1033,6 +969,70 @@
         ],
         "telephone": "06477 8908",
         "website": "www.omv.com"
+      },
+      {
+        "id": 27330,
+        "name": "Lagerhaus-Tankstelle 24 h",
+        "address": "Wöltingerstrasse 9a",
+        "postalCode": "5580",
+        "city": "Tamsweg",
+        "latitude": 47.1346161,
+        "longitude": 13.8082987,
+        "distance": 0.7242637082073807,
+        "open": true,
+        "price": null,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 8
+          }
+        ],
+        "telephone": "4364746152",
+        "website": "http://www.salzburger-lagerhaus.at"
       },
       {
         "id": 7699,

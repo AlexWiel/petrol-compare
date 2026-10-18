@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T11:18:23.609Z",
+  "updatedAt": "2026-10-18T15:56:35.173Z",
   "source": "E-Control Spritpreisrechner",
   "location": {
     "name": "Klagenfurt Nord",
@@ -8,6 +8,70 @@
   },
   "fuels": {
     "DIE": [
+      {
+        "id": 1473271,
+        "name": "Turmöl",
+        "address": "Villacher Ring 41",
+        "postalCode": "9020",
+        "city": "Klagenfurt",
+        "latitude": 46.6254895,
+        "longitude": 14.3022627,
+        "distance": 2.0250959856211868,
+        "open": true,
+        "price": 2.075,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 8
+          }
+        ],
+        "telephone": "+4372277104",
+        "website": "http://www.doppler.at"
+      },
       {
         "id": 492,
         "name": "AVANTI - Klagenfurt St.Veiter Straße 258",
@@ -71,70 +135,6 @@
         ],
         "telephone": "800202055",
         "website": "www.omv.com"
-      },
-      {
-        "id": 1473271,
-        "name": "Turmöl",
-        "address": "Villacher Ring 41",
-        "postalCode": "9020",
-        "city": "Klagenfurt",
-        "latitude": 46.6254895,
-        "longitude": 14.3022627,
-        "distance": 2.0250959856211868,
-        "open": true,
-        "price": 2.08,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 8
-          }
-        ],
-        "telephone": "+4372277104",
-        "website": "http://www.doppler.at"
       },
       {
         "id": 1473270,
@@ -210,7 +210,7 @@
         "longitude": 14.3126125,
         "distance": 1.3693731705680952,
         "open": true,
-        "price": 2.087,
+        "price": 2.086,
         "openingHours": [
           {
             "label": "Montag",
@@ -660,7 +660,7 @@
         "longitude": 14.3022627,
         "distance": 2.0250959856211868,
         "open": true,
-        "price": 1.776,
+        "price": 1.771,
         "openingHours": [
           {
             "label": "Montag",
