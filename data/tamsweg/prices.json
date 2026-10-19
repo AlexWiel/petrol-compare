@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T15:56:35.485Z",
+  "updatedAt": "2026-10-19T10:52:23.524Z",
   "source": "E-Control Spritpreisrechner",
   "location": {
     "name": "Tamsweg",
@@ -18,7 +18,7 @@
         "longitude": 13.9628069,
         "distance": 12.545945176557474,
         "open": true,
-        "price": 2.109,
+        "price": 2.158,
         "openingHours": [
           {
             "label": "Montag",
@@ -82,7 +82,7 @@
         "longitude": 13.80501,
         "distance": 0.6520692699002294,
         "open": true,
-        "price": 2.119,
+        "price": 2.179,
         "openingHours": [
           {
             "label": "Montag",
@@ -146,7 +146,7 @@
         "longitude": 13.795488,
         "distance": 1.258595822459027,
         "open": true,
-        "price": 2.119,
+        "price": 2.179,
         "openingHours": [
           {
             "label": "Montag",
@@ -201,70 +201,6 @@
         "website": "http://rumpold.net"
       },
       {
-        "id": 1474151,
-        "name": "eni24",
-        "address": "Katschberg Bundesstrasse",
-        "postalCode": "5570",
-        "city": "Mauterndorf",
-        "latitude": 47.1295,
-        "longitude": 13.684,
-        "distance": 9.58907674876661,
-        "open": true,
-        "price": 2.119,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 8
-          }
-        ],
-        "telephone": "06478800",
-        "website": null
-      },
-      {
         "id": 449140,
         "name": "Shell Austria",
         "address": "ZINSGASSE 20",
@@ -274,7 +210,7 @@
         "longitude": 13.8077,
         "distance": 0.43273301179696894,
         "open": true,
-        "price": 2.159,
+        "price": 2.199,
         "openingHours": [
           {
             "label": "Montag",
@@ -329,70 +265,6 @@
         "website": null
       },
       {
-        "id": 280,
-        "name": "OMV - Sankt Michael im Lungau Bundesstraße 112",
-        "address": "Bundesstrasse 112",
-        "postalCode": "5582",
-        "city": "Sankt Michael im Lungau",
-        "latitude": 47.09406,
-        "longitude": 13.67553,
-        "distance": 10.919617226499852,
-        "open": true,
-        "price": 2.159,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 8
-          }
-        ],
-        "telephone": "06477 8908",
-        "website": "www.omv.com"
-      },
-      {
         "id": 27330,
         "name": "Lagerhaus-Tankstelle 24 h",
         "address": "Wöltingerstrasse 9a",
@@ -402,7 +274,7 @@
         "longitude": 13.8082987,
         "distance": 0.7242637082073807,
         "open": true,
-        "price": null,
+        "price": 2.199,
         "openingHours": [
           {
             "label": "Montag",
@@ -521,6 +393,198 @@
         "website": null
       },
       {
+        "id": 1484247,
+        "name": "Autohaus Griessner GmbH",
+        "address": "Markt 117",
+        "postalCode": "5570",
+        "city": "Mauterndorf",
+        "latitude": 47.13381007899696,
+        "longitude": 13.684237484614444,
+        "distance": 9.589403325933311,
+        "open": true,
+        "price": null,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "07:30",
+            "to": "17:30",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "07:30",
+            "to": "17:30",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "07:30",
+            "to": "17:30",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "07:30",
+            "to": "17:30",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "07:30",
+            "to": "17:30",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "08:00",
+            "to": "12:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "00:00",
+            "to": "00:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "00:00",
+            "to": "00:00",
+            "order": 8
+          }
+        ],
+        "telephone": null,
+        "website": null
+      },
+      {
+        "id": 280,
+        "name": "OMV - Sankt Michael im Lungau Bundesstraße 112",
+        "address": "Bundesstrasse 112",
+        "postalCode": "5582",
+        "city": "Sankt Michael im Lungau",
+        "latitude": 47.09406,
+        "longitude": 13.67553,
+        "distance": 10.919617226499852,
+        "open": true,
+        "price": null,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 8
+          }
+        ],
+        "telephone": "06477 8908",
+        "website": "www.omv.com"
+      },
+      {
+        "id": 1474151,
+        "name": "eni24",
+        "address": "Katschberg Bundesstrasse",
+        "postalCode": "5570",
+        "city": "Mauterndorf",
+        "latitude": 47.1295,
+        "longitude": 13.684,
+        "distance": 9.58907674876661,
+        "open": true,
+        "price": null,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 8
+          }
+        ],
+        "telephone": "06478800",
+        "website": null
+      },
+      {
         "id": 7699,
         "name": "BP",
         "address": "Murtaler Straße 579",
@@ -583,201 +647,9 @@
         ],
         "telephone": "43647720010",
         "website": "http://www.lm-energy.at"
-      },
-      {
-        "id": 1484247,
-        "name": "Autohaus Griessner GmbH",
-        "address": "Markt 117",
-        "postalCode": "5570",
-        "city": "Mauterndorf",
-        "latitude": 47.13381007899696,
-        "longitude": 13.684237484614444,
-        "distance": 9.589403325933311,
-        "open": false,
-        "price": null,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "07:30",
-            "to": "17:30",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "07:30",
-            "to": "17:30",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "07:30",
-            "to": "17:30",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "07:30",
-            "to": "17:30",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "07:30",
-            "to": "17:30",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "08:00",
-            "to": "12:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "00:00",
-            "to": "00:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "00:00",
-            "to": "00:00",
-            "order": 8
-          }
-        ],
-        "telephone": null,
-        "website": null
       }
     ],
     "SUP": [
-      {
-        "id": 628750,
-        "name": "AVIA Xpress (Automaten-Tankstelle)",
-        "address": "Zinsgasse 21",
-        "postalCode": "5580",
-        "city": "Tamsweg",
-        "latitude": 47.132756,
-        "longitude": 13.80501,
-        "distance": 0.6520692699002294,
-        "open": true,
-        "price": 1.759,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 8
-          }
-        ],
-        "telephone": "43775287991",
-        "website": "http://www.avia-moser.at"
-      },
-      {
-        "id": 1474151,
-        "name": "eni24",
-        "address": "Katschberg Bundesstrasse",
-        "postalCode": "5570",
-        "city": "Mauterndorf",
-        "latitude": 47.1295,
-        "longitude": 13.684,
-        "distance": 9.58907674876661,
-        "open": true,
-        "price": 1.769,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 8
-          }
-        ],
-        "telephone": "06478800",
-        "website": null
-      },
       {
         "id": 33412,
         "name": "SOCAR Stadl an der Mur",
@@ -788,7 +660,7 @@
         "longitude": 13.9628069,
         "distance": 12.545945176557474,
         "open": true,
-        "price": 1.787,
+        "price": 1.839,
         "openingHours": [
           {
             "label": "Montag",
@@ -852,7 +724,7 @@
         "longitude": 13.8077,
         "distance": 0.43273301179696894,
         "open": true,
-        "price": 1.799,
+        "price": 1.859,
         "openingHours": [
           {
             "label": "Montag",
@@ -907,16 +779,16 @@
         "website": null
       },
       {
-        "id": 280,
-        "name": "OMV - Sankt Michael im Lungau Bundesstraße 112",
-        "address": "Bundesstrasse 112",
-        "postalCode": "5582",
-        "city": "Sankt Michael im Lungau",
-        "latitude": 47.09406,
-        "longitude": 13.67553,
-        "distance": 10.919617226499852,
+        "id": 628750,
+        "name": "AVIA Xpress (Automaten-Tankstelle)",
+        "address": "Zinsgasse 21",
+        "postalCode": "5580",
+        "city": "Tamsweg",
+        "latitude": 47.132756,
+        "longitude": 13.80501,
+        "distance": 0.6520692699002294,
         "open": true,
-        "price": 1.819,
+        "price": 1.859,
         "openingHours": [
           {
             "label": "Montag",
@@ -967,8 +839,8 @@
             "order": 8
           }
         ],
-        "telephone": "06477 8908",
-        "website": "www.omv.com"
+        "telephone": "43775287991",
+        "website": "http://www.avia-moser.at"
       },
       {
         "id": 27330,
@@ -980,7 +852,7 @@
         "longitude": 13.8082987,
         "distance": 0.7242637082073807,
         "open": true,
-        "price": null,
+        "price": 1.869,
         "openingHours": [
           {
             "label": "Montag",
@@ -1035,68 +907,132 @@
         "website": "http://www.salzburger-lagerhaus.at"
       },
       {
-        "id": 7699,
-        "name": "BP",
-        "address": "Murtaler Straße 579",
+        "id": 1474151,
+        "name": "eni24",
+        "address": "Katschberg Bundesstrasse",
+        "postalCode": "5570",
+        "city": "Mauterndorf",
+        "latitude": 47.1295,
+        "longitude": 13.684,
+        "distance": 9.58907674876661,
+        "open": true,
+        "price": 1.879,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 8
+          }
+        ],
+        "telephone": "06478800",
+        "website": null
+      },
+      {
+        "id": 280,
+        "name": "OMV - Sankt Michael im Lungau Bundesstraße 112",
+        "address": "Bundesstrasse 112",
         "postalCode": "5582",
-        "city": "St. Michael",
-        "latitude": 47.09614456951144,
-        "longitude": 13.633711338043213,
-        "distance": 13.870658614961432,
+        "city": "Sankt Michael im Lungau",
+        "latitude": 47.09406,
+        "longitude": 13.67553,
+        "distance": 10.919617226499852,
         "open": true,
         "price": null,
         "openingHours": [
           {
             "label": "Montag",
             "from": "06:00",
-            "to": "21:00",
+            "to": "22:00",
             "order": 1
           },
           {
             "label": "Dienstag",
             "from": "06:00",
-            "to": "21:00",
+            "to": "22:00",
             "order": 2
           },
           {
             "label": "Mittwoch",
             "from": "06:00",
-            "to": "21:00",
+            "to": "22:00",
             "order": 3
           },
           {
             "label": "Donnerstag",
             "from": "06:00",
-            "to": "21:00",
+            "to": "22:00",
             "order": 4
           },
           {
             "label": "Freitag",
             "from": "06:00",
-            "to": "21:00",
+            "to": "22:00",
             "order": 5
           },
           {
             "label": "Samstag",
             "from": "06:00",
-            "to": "21:00",
+            "to": "22:00",
             "order": 6
           },
           {
             "label": "Sonntag",
             "from": "06:00",
-            "to": "21:00",
+            "to": "22:00",
             "order": 7
           },
           {
             "label": "Feiertag",
             "from": "06:00",
-            "to": "21:00",
+            "to": "22:00",
             "order": 8
           }
         ],
-        "telephone": "43647720010",
-        "website": "http://www.lm-energy.at"
+        "telephone": "06477 8908",
+        "website": "www.omv.com"
       },
       {
         "id": 33986,
@@ -1171,7 +1107,7 @@
         "latitude": 47.13381007899696,
         "longitude": 13.684237484614444,
         "distance": 9.589403325933311,
-        "open": false,
+        "open": true,
         "price": null,
         "openingHours": [
           {
@@ -1225,6 +1161,70 @@
         ],
         "telephone": null,
         "website": null
+      },
+      {
+        "id": 7699,
+        "name": "BP",
+        "address": "Murtaler Straße 579",
+        "postalCode": "5582",
+        "city": "St. Michael",
+        "latitude": 47.09614456951144,
+        "longitude": 13.633711338043213,
+        "distance": 13.870658614961432,
+        "open": true,
+        "price": null,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 8
+          }
+        ],
+        "telephone": "43647720010",
+        "website": "http://www.lm-energy.at"
       },
       {
         "id": 1484625,
