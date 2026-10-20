@@ -58,16 +58,21 @@ function normalize(station, fuelType) {
   };
 }
 
+// Optional nur Tankstellen mit bestimmten Postleitzahlen (locations.json → postalCodes), z. B. nur 5580 Tamsweg.
+const inArea = (loc, station) => !loc.postalCodes || loc.postalCodes.includes(String(station.postalCode).trim());
+
 async function updateLocation(loc) {
   const fuels = {};
+  const postalById = {}; // alle gelieferten Tankstellen, auch gefilterte – für die Bereinigung des Verlaufs
   for (const fuelType of Object.keys(FUELS)) {
-    const stations = await fetchFuel(loc, fuelType);
-    fuels[fuelType] = stations.map((s) => normalize(s, fuelType));
-    console.log(`${loc.name} – ${FUELS[fuelType]}: ${fuels[fuelType].length} Tankstellen`);
+    const stations = (await fetchFuel(loc, fuelType)).map((s) => normalize(s, fuelType));
+    for (const s of stations) postalById[s.id] = String(s.postalCode).trim();
+    fuels[fuelType] = stations.filter((s) => inArea(loc, s));
+    console.log(`${loc.name} – ${FUELS[fuelType]}: ${fuels[fuelType].length} von ${stations.length} Tankstellen`);
   }
 
   const dir = new URL(`${loc.dataDir}/`, ROOT);
-  const location = { name: loc.name, latitude: loc.latitude, longitude: loc.longitude };
+  const location = { name: loc.name, latitude: loc.latitude, longitude: loc.longitude, postalCodes: loc.postalCodes ?? null };
   const updatedAt = new Date().toISOString();
   await mkdir(dir, { recursive: true });
   await writeFile(
@@ -84,11 +89,38 @@ async function updateLocation(loc) {
   } catch {
     console.log(`${loc.dataDir}/history.json existiert noch nicht – wird angelegt`);
   }
+  refilterHistory(history, loc, postalById);
   await writeFile(historyFile, JSON.stringify(appendHistory(history, updatedAt, fuels)) + "\n");
   console.log(`${loc.dataDir}/history.json: ${history.entries.length} Einträge`);
 }
 
-// Ein fehlgeschlagener Standort hält die anderen nicht auf; die Action wird trotzdem rot.
+// Wurde der PLZ-Filter eines Standorts geändert, ältere Verlaufseinträge einmalig neu berechnen:
+// nur Preise von Tankstellen behalten, deren PLZ bekannt ist und passt.
+function refilterHistory(history, loc, postalById) {
+  const key = loc.postalCodes ? loc.postalCodes.join(",") : null;
+  if ((history.postalCodes ?? null) === key) return;
+  history.postalCodes = key;
+  if (!key) return;
+  for (const entry of history.entries) {
+    for (const fuelType of Object.keys(FUELS)) {
+      const old = entry[fuelType];
+      if (!old) continue;
+      const prices = Object.entries(old.prices).filter(([id]) => loc.postalCodes.includes(postalById[id]));
+      if (!prices.length) { delete entry[fuelType]; continue; }
+      const values = prices.map(([, p]) => p);
+      const min = Math.min(...values);
+      entry[fuelType] = {
+        min,
+        avg: Math.round((values.reduce((a, b) => a + b, 0) / values.length) * 1000) / 1000,
+        max: Math.max(...values),
+        cheapest: Number(prices.find(([, p]) => p === min)[0]),
+        prices: Object.fromEntries(prices),
+      };
+    }
+  }
+  console.log(`${loc.name}: Verlauf auf PLZ ${key} neu berechnet`);
+}
+
 // Liefert z. B. "2026-10-17#1" für das Mittagsfenster am 17.10. (Wiener Zeit), außerhalb aller Fenster null.
 function slotOf(date) {
   const parts = Object.fromEntries(
@@ -115,6 +147,7 @@ const now = new Date();
 const slot = slotOf(now);
 if (!FORCE && !slot) console.log("Außerhalb der Abrufzeitfenster – nichts zu tun.");
 
+// Ein fehlgeschlagener Standort hält die anderen nicht auf; die Action wird trotzdem rot.
 let failed = 0;
 for (const loc of LOCATIONS) {
   if (!FORCE) {
