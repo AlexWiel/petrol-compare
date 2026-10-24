@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T07:22:58.424Z",
+  "updatedAt": "2026-10-24T12:44:23.188Z",
   "source": "E-Control Spritpreisrechner",
   "location": {
     "name": "Tamsweg",
@@ -401,7 +401,7 @@
         "latitude": 47.13381007899696,
         "longitude": 13.684237484614444,
         "distance": 9.589403325933311,
-        "open": true,
+        "open": false,
         "price": null,
         "openingHours": [
           {
@@ -454,70 +454,6 @@
           }
         ],
         "telephone": null,
-        "website": null
-      },
-      {
-        "id": 33986,
-        "name": "Shell",
-        "address": "Austrasse 21",
-        "postalCode": "5582",
-        "city": "St. Michael",
-        "latitude": 47.0948959,
-        "longitude": 13.6359162,
-        "distance": 13.746427898470513,
-        "open": true,
-        "price": null,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "07:00",
-            "to": "20:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "07:00",
-            "to": "20:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "07:00",
-            "to": "20:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "07:00",
-            "to": "20:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "07:00",
-            "to": "20:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "07:00",
-            "to": "20:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "08:00",
-            "to": "20:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "08:00",
-            "to": "20:00",
-            "order": 8
-          }
-        ],
-        "telephone": "4364778400",
         "website": null
       },
       {
@@ -583,6 +519,70 @@
         ],
         "telephone": "06477 8908",
         "website": "www.omv.com"
+      },
+      {
+        "id": 33986,
+        "name": "Shell",
+        "address": "Austrasse 21",
+        "postalCode": "5582",
+        "city": "St. Michael",
+        "latitude": 47.0948959,
+        "longitude": 13.6359162,
+        "distance": 13.746427898470513,
+        "open": true,
+        "price": null,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "07:00",
+            "to": "20:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "07:00",
+            "to": "20:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "07:00",
+            "to": "20:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "07:00",
+            "to": "20:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "07:00",
+            "to": "20:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "07:00",
+            "to": "20:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "08:00",
+            "to": "20:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "08:00",
+            "to": "20:00",
+            "order": 8
+          }
+        ],
+        "telephone": "4364778400",
+        "website": null
       },
       {
         "id": 7699,
@@ -660,7 +660,7 @@
         "longitude": 13.80501,
         "distance": 0.6520692699002294,
         "open": true,
-        "price": 1.779,
+        "price": 1.759,
         "openingHours": [
           {
             "label": "Montag",
@@ -724,7 +724,7 @@
         "longitude": 13.684,
         "distance": 9.58907674876661,
         "open": true,
-        "price": 1.789,
+        "price": 1.769,
         "openingHours": [
           {
             "label": "Montag",
@@ -779,70 +779,6 @@
         "website": null
       },
       {
-        "id": 33412,
-        "name": "SOCAR Stadl an der Mur",
-        "address": "Murauer Straße 118",
-        "postalCode": "8862",
-        "city": "Stadl an der Mur",
-        "latitude": 47.0839155,
-        "longitude": 13.9628069,
-        "distance": 12.545945176557474,
-        "open": true,
-        "price": 1.796,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "06:00",
-            "to": "21:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "06:00",
-            "to": "21:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "06:00",
-            "to": "21:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "06:00",
-            "to": "21:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "06:00",
-            "to": "21:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "06:00",
-            "to": "21:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "07:00",
-            "to": "19:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "07:00",
-            "to": "19:00",
-            "order": 8
-          }
-        ],
-        "telephone": "4335342318",
-        "website": "https://www.socarenergy.at/"
-      },
-      {
         "id": 449140,
         "name": "Shell Austria",
         "address": "ZINSGASSE 20",
@@ -852,7 +788,7 @@
         "longitude": 13.8077,
         "distance": 0.43273301179696894,
         "open": true,
-        "price": 1.799,
+        "price": 1.779,
         "openingHours": [
           {
             "label": "Montag",
@@ -905,6 +841,70 @@
         ],
         "telephone": "064742286",
         "website": null
+      },
+      {
+        "id": 33412,
+        "name": "SOCAR Stadl an der Mur",
+        "address": "Murauer Straße 118",
+        "postalCode": "8862",
+        "city": "Stadl an der Mur",
+        "latitude": 47.0839155,
+        "longitude": 13.9628069,
+        "distance": 12.545945176557474,
+        "open": true,
+        "price": 1.787,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "07:00",
+            "to": "19:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "07:00",
+            "to": "19:00",
+            "order": 8
+          }
+        ],
+        "telephone": "4335342318",
+        "website": "https://www.socarenergy.at/"
       },
       {
         "id": 27330,
@@ -980,7 +980,7 @@
         "longitude": 13.67553,
         "distance": 10.919617226499852,
         "open": true,
-        "price": null,
+        "price": 1.809,
         "openingHours": [
           {
             "label": "Montag",
@@ -1107,7 +1107,7 @@
         "latitude": 47.13381007899696,
         "longitude": 13.684237484614444,
         "distance": 9.589403325933311,
-        "open": true,
+        "open": false,
         "price": null,
         "openingHours": [
           {

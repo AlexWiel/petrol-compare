@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T07:22:58.114Z",
+  "updatedAt": "2026-10-24T12:44:22.874Z",
   "source": "E-Control Spritpreisrechner",
   "location": {
     "name": "Klagenfurt Nord",
@@ -18,7 +18,7 @@
         "longitude": 14.28436,
         "distance": 1.2598584797545662,
         "open": true,
-        "price": 2.138,
+        "price": 2.11,
         "openingHours": [
           {
             "label": "Montag",
@@ -82,7 +82,7 @@
         "longitude": 14.31387,
         "distance": 1.6081931169046637,
         "open": true,
-        "price": 2.138,
+        "price": 2.11,
         "openingHours": [
           {
             "label": "Montag",
@@ -146,7 +146,7 @@
         "longitude": 14.28047,
         "distance": 1.794486957631403,
         "open": true,
-        "price": 2.138,
+        "price": 2.11,
         "openingHours": [
           {
             "label": "Montag",
@@ -201,70 +201,6 @@
         "website": "www.omv.com"
       },
       {
-        "id": 33385,
-        "name": "SOCAR Klagenfurt-St.Veiter-Straße",
-        "address": "St. Veiter Straße 94",
-        "postalCode": "9020",
-        "city": "Klagenfurt",
-        "latitude": 46.6359198,
-        "longitude": 14.3126125,
-        "distance": 1.3693731705680952,
-        "open": true,
-        "price": 2.139,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 8
-          }
-        ],
-        "telephone": "+433164111-0",
-        "website": "https://www.socarenergy.at/"
-      },
-      {
         "id": 1354852,
         "name": "JET TANKSTELLE",
         "address": "FELDKIRCHNERSTRASSE 130",
@@ -274,7 +210,7 @@
         "longitude": 14.291635,
         "distance": 0.6209473967067908,
         "open": true,
-        "price": 2.143,
+        "price": 2.115,
         "openingHours": [
           {
             "label": "Montag",
@@ -338,7 +274,7 @@
         "longitude": 14.3133874,
         "distance": 1.5684451490548057,
         "open": true,
-        "price": null,
+        "price": 2.115,
         "openingHours": [
           {
             "label": "Montag",
@@ -391,6 +327,70 @@
         ],
         "telephone": "+4372277104",
         "website": "http://www.doppler.at"
+      },
+      {
+        "id": 33385,
+        "name": "SOCAR Klagenfurt-St.Veiter-Straße",
+        "address": "St. Veiter Straße 94",
+        "postalCode": "9020",
+        "city": "Klagenfurt",
+        "latitude": 46.6359198,
+        "longitude": 14.3126125,
+        "distance": 1.3693731705680952,
+        "open": true,
+        "price": null,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 8
+          }
+        ],
+        "telephone": "+433164111-0",
+        "website": "https://www.socarenergy.at/"
       },
       {
         "id": 1473271,
@@ -660,7 +660,7 @@
         "longitude": 14.3126125,
         "distance": 1.3693731705680952,
         "open": true,
-        "price": 1.757,
+        "price": 1.75,
         "openingHours": [
           {
             "label": "Montag",
@@ -715,6 +715,70 @@
         "website": "https://www.socarenergy.at/"
       },
       {
+        "id": 1474413,
+        "name": "Diskont Tankstelle",
+        "address": "Feldkirchner Strasse 221 (am HOFER Parkplatz)",
+        "postalCode": "9020",
+        "city": "Klagenfurt",
+        "latitude": 46.64932,
+        "longitude": 14.28436,
+        "distance": 1.2598584797545662,
+        "open": true,
+        "price": 1.752,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 8
+          }
+        ],
+        "telephone": "43800202055",
+        "website": "http://www.diskonttanken.at/"
+      },
+      {
         "id": 492,
         "name": "AVANTI - Klagenfurt St.Veiter Straße 258",
         "address": "St.Veiter Strasse 258",
@@ -724,7 +788,71 @@
         "longitude": 14.31387,
         "distance": 1.6081931169046637,
         "open": true,
-        "price": 1.757,
+        "price": 1.752,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 8
+          }
+        ],
+        "telephone": "800202055",
+        "website": "www.omv.com"
+      },
+      {
+        "id": 267,
+        "name": "AVANTI - Klagenfurt Feldkirchnerstraße 275",
+        "address": "Feldkirchnerstrasse 275",
+        "postalCode": "9020",
+        "city": "Klagenfurt",
+        "latitude": 46.65383,
+        "longitude": 14.28047,
+        "distance": 1.794486957631403,
+        "open": true,
+        "price": 1.752,
         "openingHours": [
           {
             "label": "Montag",
@@ -788,7 +916,7 @@
         "longitude": 14.3133874,
         "distance": 1.5684451490548057,
         "open": true,
-        "price": 1.762,
+        "price": 1.755,
         "openingHours": [
           {
             "label": "Montag",
@@ -841,134 +969,6 @@
         ],
         "telephone": "+4372277104",
         "website": "http://www.doppler.at"
-      },
-      {
-        "id": 1474413,
-        "name": "Diskont Tankstelle",
-        "address": "Feldkirchner Strasse 221 (am HOFER Parkplatz)",
-        "postalCode": "9020",
-        "city": "Klagenfurt",
-        "latitude": 46.64932,
-        "longitude": 14.28436,
-        "distance": 1.2598584797545662,
-        "open": true,
-        "price": 1.764,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 8
-          }
-        ],
-        "telephone": "43800202055",
-        "website": "http://www.diskonttanken.at/"
-      },
-      {
-        "id": 267,
-        "name": "AVANTI - Klagenfurt Feldkirchnerstraße 275",
-        "address": "Feldkirchnerstrasse 275",
-        "postalCode": "9020",
-        "city": "Klagenfurt",
-        "latitude": 46.65383,
-        "longitude": 14.28047,
-        "distance": 1.794486957631403,
-        "open": true,
-        "price": 1.764,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 8
-          }
-        ],
-        "telephone": "800202055",
-        "website": "www.omv.com"
       },
       {
         "id": 1354852,
