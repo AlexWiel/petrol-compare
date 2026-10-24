@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T12:44:23.188Z",
+  "updatedAt": "2026-10-24T16:39:54.552Z",
   "source": "E-Control Spritpreisrechner",
   "location": {
     "name": "Tamsweg",
@@ -521,70 +521,6 @@
         "website": "www.omv.com"
       },
       {
-        "id": 33986,
-        "name": "Shell",
-        "address": "Austrasse 21",
-        "postalCode": "5582",
-        "city": "St. Michael",
-        "latitude": 47.0948959,
-        "longitude": 13.6359162,
-        "distance": 13.746427898470513,
-        "open": true,
-        "price": null,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "07:00",
-            "to": "20:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "07:00",
-            "to": "20:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "07:00",
-            "to": "20:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "07:00",
-            "to": "20:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "07:00",
-            "to": "20:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "07:00",
-            "to": "20:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "08:00",
-            "to": "20:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "08:00",
-            "to": "20:00",
-            "order": 8
-          }
-        ],
-        "telephone": "4364778400",
-        "website": null
-      },
-      {
         "id": 7699,
         "name": "BP",
         "address": "Murtaler Straße 579",
@@ -647,6 +583,70 @@
         ],
         "telephone": "43647720010",
         "website": "http://www.lm-energy.at"
+      },
+      {
+        "id": 33986,
+        "name": "Shell",
+        "address": "Austrasse 21",
+        "postalCode": "5582",
+        "city": "St. Michael",
+        "latitude": 47.0948959,
+        "longitude": 13.6359162,
+        "distance": 13.746427898470513,
+        "open": true,
+        "price": null,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "07:00",
+            "to": "20:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "07:00",
+            "to": "20:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "07:00",
+            "to": "20:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "07:00",
+            "to": "20:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "07:00",
+            "to": "20:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "07:00",
+            "to": "20:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "08:00",
+            "to": "20:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "08:00",
+            "to": "20:00",
+            "order": 8
+          }
+        ],
+        "telephone": "4364778400",
+        "website": null
       }
     ],
     "SUP": [
@@ -660,7 +660,7 @@
         "longitude": 13.80501,
         "distance": 0.6520692699002294,
         "open": true,
-        "price": 1.759,
+        "price": 1.739,
         "openingHours": [
           {
             "label": "Montag",
@@ -724,7 +724,7 @@
         "longitude": 13.684,
         "distance": 9.58907674876661,
         "open": true,
-        "price": 1.769,
+        "price": 1.749,
         "openingHours": [
           {
             "label": "Montag",
@@ -788,7 +788,7 @@
         "longitude": 13.8077,
         "distance": 0.43273301179696894,
         "open": true,
-        "price": 1.779,
+        "price": 1.769,
         "openingHours": [
           {
             "label": "Montag",
@@ -852,7 +852,7 @@
         "longitude": 13.9628069,
         "distance": 12.545945176557474,
         "open": true,
-        "price": 1.787,
+        "price": 1.783,
         "openingHours": [
           {
             "label": "Montag",
@@ -907,70 +907,6 @@
         "website": "https://www.socarenergy.at/"
       },
       {
-        "id": 27330,
-        "name": "Lagerhaus-Tankstelle 24 h",
-        "address": "Wöltingerstrasse 9a",
-        "postalCode": "5580",
-        "city": "Tamsweg",
-        "latitude": 47.1346161,
-        "longitude": 13.8082987,
-        "distance": 0.7242637082073807,
-        "open": true,
-        "price": 1.809,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 8
-          }
-        ],
-        "telephone": "4364746152",
-        "website": "http://www.salzburger-lagerhaus.at"
-      },
-      {
         "id": 280,
         "name": "OMV - Sankt Michael im Lungau Bundesstraße 112",
         "address": "Bundesstrasse 112",
@@ -980,7 +916,7 @@
         "longitude": 13.67553,
         "distance": 10.919617226499852,
         "open": true,
-        "price": 1.809,
+        "price": 1.799,
         "openingHours": [
           {
             "label": "Montag",
@@ -1044,7 +980,7 @@
         "longitude": 13.633711338043213,
         "distance": 13.870658614961432,
         "open": true,
-        "price": null,
+        "price": 1.799,
         "openingHours": [
           {
             "label": "Montag",
@@ -1097,6 +1033,70 @@
         ],
         "telephone": "43647720010",
         "website": "http://www.lm-energy.at"
+      },
+      {
+        "id": 27330,
+        "name": "Lagerhaus-Tankstelle 24 h",
+        "address": "Wöltingerstrasse 9a",
+        "postalCode": "5580",
+        "city": "Tamsweg",
+        "latitude": 47.1346161,
+        "longitude": 13.8082987,
+        "distance": 0.7242637082073807,
+        "open": true,
+        "price": null,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 8
+          }
+        ],
+        "telephone": "4364746152",
+        "website": "http://www.salzburger-lagerhaus.at"
       },
       {
         "id": 1484247,
