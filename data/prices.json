@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T12:36:57.969Z",
+  "updatedAt": "2026-10-25T17:04:49.002Z",
   "source": "E-Control Spritpreisrechner",
   "location": {
     "name": "Klagenfurt Nord",
@@ -71,6 +71,70 @@
         ],
         "telephone": "800202055",
         "website": "www.omv.com"
+      },
+      {
+        "id": 1473271,
+        "name": "Turmöl",
+        "address": "Villacher Ring 41",
+        "postalCode": "9020",
+        "city": "Klagenfurt",
+        "latitude": 46.6254895,
+        "longitude": 14.3022627,
+        "distance": 2.0250959856211868,
+        "open": true,
+        "price": 2.089,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "06:00",
+            "to": "23:30",
+            "order": 8
+          }
+        ],
+        "telephone": "+4372277104",
+        "website": "http://www.doppler.at"
       },
       {
         "id": 33385,
@@ -194,70 +258,6 @@
             "label": "Feiertag",
             "from": "06:00",
             "to": "22:00",
-            "order": 8
-          }
-        ],
-        "telephone": "+4372277104",
-        "website": "http://www.doppler.at"
-      },
-      {
-        "id": 1473271,
-        "name": "Turmöl",
-        "address": "Villacher Ring 41",
-        "postalCode": "9020",
-        "city": "Klagenfurt",
-        "latitude": 46.6254895,
-        "longitude": 14.3022627,
-        "distance": 2.0250959856211868,
-        "open": true,
-        "price": 2.092,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "06:00",
-            "to": "23:30",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "06:00",
-            "to": "23:30",
             "order": 8
           }
         ],
@@ -457,70 +457,6 @@
         "website": null
       },
       {
-        "id": 449832,
-        "name": "Shell Austria",
-        "address": "KOSCHATSTRASSE 116 NORD",
-        "postalCode": "9020",
-        "city": "KLAGENFURT",
-        "latitude": 46.6233,
-        "longitude": 14.28377,
-        "distance": 2.514438089603573,
-        "open": true,
-        "price": null,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 8
-          }
-        ],
-        "telephone": "0463515988",
-        "website": null
-      },
-      {
         "id": 1474130,
         "name": "eni",
         "address": "St.Veiter-Strasse 168",
@@ -646,6 +582,70 @@
           }
         ],
         "telephone": "0463440392",
+        "website": null
+      },
+      {
+        "id": 449832,
+        "name": "Shell Austria",
+        "address": "KOSCHATSTRASSE 116 NORD",
+        "postalCode": "9020",
+        "city": "KLAGENFURT",
+        "latitude": 46.6233,
+        "longitude": 14.28377,
+        "distance": 2.514438089603573,
+        "open": true,
+        "price": null,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 8
+          }
+        ],
+        "telephone": "0463515988",
         "website": null
       }
     ],
@@ -843,70 +843,6 @@
         "website": "http://www.doppler.at"
       },
       {
-        "id": 1354852,
-        "name": "JET TANKSTELLE",
-        "address": "FELDKIRCHNERSTRASSE 130",
-        "postalCode": "9020",
-        "city": "KLAGENFURT",
-        "latitude": 46.640516,
-        "longitude": 14.291635,
-        "distance": 0.6209473967067908,
-        "open": true,
-        "price": 1.748,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "05:00",
-            "to": "23:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "05:00",
-            "to": "23:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "05:00",
-            "to": "23:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "05:00",
-            "to": "23:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "05:00",
-            "to": "23:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "05:00",
-            "to": "23:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "06:00",
-            "to": "23:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "06:00",
-            "to": "23:00",
-            "order": 8
-          }
-        ],
-        "telephone": "0463419190",
-        "website": null
-      },
-      {
         "id": 1474413,
         "name": "Diskont Tankstelle",
         "address": "Feldkirchner Strasse 221 (am HOFER Parkplatz)",
@@ -916,7 +852,7 @@
         "longitude": 14.28436,
         "distance": 1.2598584797545662,
         "open": true,
-        "price": 1.748,
+        "price": 1.743,
         "openingHours": [
           {
             "label": "Montag",
@@ -980,7 +916,7 @@
         "longitude": 14.28047,
         "distance": 1.794486957631403,
         "open": true,
-        "price": 1.748,
+        "price": 1.743,
         "openingHours": [
           {
             "label": "Montag",
@@ -1044,7 +980,7 @@
         "longitude": 14.3022627,
         "distance": 2.0250959856211868,
         "open": true,
-        "price": 1.748,
+        "price": null,
         "openingHours": [
           {
             "label": "Montag",
@@ -1097,6 +1033,70 @@
         ],
         "telephone": "+4372277104",
         "website": "http://www.doppler.at"
+      },
+      {
+        "id": 1354852,
+        "name": "JET TANKSTELLE",
+        "address": "FELDKIRCHNERSTRASSE 130",
+        "postalCode": "9020",
+        "city": "KLAGENFURT",
+        "latitude": 46.640516,
+        "longitude": 14.291635,
+        "distance": 0.6209473967067908,
+        "open": true,
+        "price": null,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "05:00",
+            "to": "23:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "05:00",
+            "to": "23:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "05:00",
+            "to": "23:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "05:00",
+            "to": "23:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "05:00",
+            "to": "23:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "05:00",
+            "to": "23:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "06:00",
+            "to": "23:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "06:00",
+            "to": "23:00",
+            "order": 8
+          }
+        ],
+        "telephone": "0463419190",
+        "website": null
       },
       {
         "id": 1474130,
