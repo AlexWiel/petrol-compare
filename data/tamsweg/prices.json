@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T18:39:59.414Z",
+  "updatedAt": "2026-10-31T09:45:24.811Z",
   "source": "E-Control Spritpreisrechner",
   "location": {
     "name": "Tamsweg",
@@ -18,7 +18,7 @@
         "longitude": 13.80501,
         "distance": 0.6520692699002294,
         "open": true,
-        "price": 2.159,
+        "price": 2.137,
         "openingHours": [
           {
             "label": "Montag",
@@ -71,6 +71,198 @@
         ],
         "telephone": "43775287991",
         "website": "http://www.avia-moser.at"
+      },
+      {
+        "id": 1477484,
+        "name": "Rumpold",
+        "address": "Gewerbepark",
+        "postalCode": "5580",
+        "city": "Tamsweg",
+        "latitude": 47.133005,
+        "longitude": 13.795488,
+        "distance": 1.258595822459027,
+        "open": true,
+        "price": 2.137,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 8
+          }
+        ],
+        "telephone": "+43384738005016",
+        "website": "http://rumpold.net"
+      },
+      {
+        "id": 1474151,
+        "name": "eni24",
+        "address": "Katschberg Bundesstrasse",
+        "postalCode": "5570",
+        "city": "Mauterndorf",
+        "latitude": 47.1295,
+        "longitude": 13.684,
+        "distance": 9.58907674876661,
+        "open": true,
+        "price": 2.137,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 8
+          }
+        ],
+        "telephone": "06478800",
+        "website": null
+      },
+      {
+        "id": 33412,
+        "name": "SOCAR Stadl an der Mur",
+        "address": "Murauer Straße 118",
+        "postalCode": "8862",
+        "city": "Stadl an der Mur",
+        "latitude": 47.0839155,
+        "longitude": 13.9628069,
+        "distance": 12.545945176557474,
+        "open": true,
+        "price": 2.146,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "07:00",
+            "to": "19:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "07:00",
+            "to": "19:00",
+            "order": 8
+          }
+        ],
+        "telephone": "4335342318",
+        "website": "https://www.socarenergy.at/"
       },
       {
         "id": 27330,
@@ -135,198 +327,6 @@
         ],
         "telephone": "4364746152",
         "website": "http://www.salzburger-lagerhaus.at"
-      },
-      {
-        "id": 1477484,
-        "name": "Rumpold",
-        "address": "Gewerbepark",
-        "postalCode": "5580",
-        "city": "Tamsweg",
-        "latitude": 47.133005,
-        "longitude": 13.795488,
-        "distance": 1.258595822459027,
-        "open": true,
-        "price": 2.159,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 8
-          }
-        ],
-        "telephone": "+43384738005016",
-        "website": "http://rumpold.net"
-      },
-      {
-        "id": 1474151,
-        "name": "eni24",
-        "address": "Katschberg Bundesstrasse",
-        "postalCode": "5570",
-        "city": "Mauterndorf",
-        "latitude": 47.1295,
-        "longitude": 13.684,
-        "distance": 9.58907674876661,
-        "open": true,
-        "price": 2.159,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 8
-          }
-        ],
-        "telephone": "06478800",
-        "website": null
-      },
-      {
-        "id": 33412,
-        "name": "SOCAR Stadl an der Mur",
-        "address": "Murauer Straße 118",
-        "postalCode": "8862",
-        "city": "Stadl an der Mur",
-        "latitude": 47.0839155,
-        "longitude": 13.9628069,
-        "distance": 12.545945176557474,
-        "open": true,
-        "price": 2.178,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "06:00",
-            "to": "21:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "06:00",
-            "to": "21:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "06:00",
-            "to": "21:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "06:00",
-            "to": "21:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "06:00",
-            "to": "21:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "06:00",
-            "to": "21:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "07:00",
-            "to": "19:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "07:00",
-            "to": "19:00",
-            "order": 8
-          }
-        ],
-        "telephone": "4335342318",
-        "website": "https://www.socarenergy.at/"
       },
       {
         "id": 449140,
@@ -593,7 +593,7 @@
         "latitude": 47.13381007899696,
         "longitude": 13.684237484614444,
         "distance": 9.589403325933311,
-        "open": false,
+        "open": true,
         "price": null,
         "openingHours": [
           {
@@ -660,7 +660,7 @@
         "longitude": 13.9628069,
         "distance": 12.545945176557474,
         "open": true,
-        "price": 1.754,
+        "price": 1.737,
         "openingHours": [
           {
             "label": "Montag",
@@ -724,7 +724,7 @@
         "longitude": 13.80501,
         "distance": 0.6520692699002294,
         "open": true,
-        "price": 1.789,
+        "price": 1.769,
         "openingHours": [
           {
             "label": "Montag",
@@ -777,6 +777,70 @@
         ],
         "telephone": "43775287991",
         "website": "http://www.avia-moser.at"
+      },
+      {
+        "id": 1474151,
+        "name": "eni24",
+        "address": "Katschberg Bundesstrasse",
+        "postalCode": "5570",
+        "city": "Mauterndorf",
+        "latitude": 47.1295,
+        "longitude": 13.684,
+        "distance": 9.58907674876661,
+        "open": true,
+        "price": 1.779,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 8
+          }
+        ],
+        "telephone": "06478800",
+        "website": null
       },
       {
         "id": 449140,
@@ -840,70 +904,6 @@
           }
         ],
         "telephone": "064742286",
-        "website": null
-      },
-      {
-        "id": 1474151,
-        "name": "eni24",
-        "address": "Katschberg Bundesstrasse",
-        "postalCode": "5570",
-        "city": "Mauterndorf",
-        "latitude": 47.1295,
-        "longitude": 13.684,
-        "distance": 9.58907674876661,
-        "open": true,
-        "price": 1.799,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 8
-          }
-        ],
-        "telephone": "06478800",
         "website": null
       },
       {
@@ -1107,7 +1107,7 @@
         "latitude": 47.13381007899696,
         "longitude": 13.684237484614444,
         "distance": 9.589403325933311,
-        "open": false,
+        "open": true,
         "price": null,
         "openingHours": [
           {
