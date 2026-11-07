@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T10:23:06.367Z",
+  "updatedAt": "2026-11-07T16:52:55.260Z",
   "source": "E-Control Spritpreisrechner",
   "location": {
     "name": "Tamsweg",
@@ -18,7 +18,7 @@
         "longitude": 13.9628069,
         "distance": 12.545945176557474,
         "open": true,
-        "price": 2.079,
+        "price": 2.062,
         "openingHours": [
           {
             "label": "Montag",
@@ -273,7 +273,7 @@
         "latitude": 47.13381007899696,
         "longitude": 13.684237484614444,
         "distance": 9.589403325933311,
-        "open": true,
+        "open": false,
         "price": 2.149,
         "openingHours": [
           {
@@ -660,7 +660,7 @@
         "longitude": 13.80501,
         "distance": 0.6520692699002294,
         "open": true,
-        "price": 1.659,
+        "price": 1.639,
         "openingHours": [
           {
             "label": "Montag",
@@ -724,7 +724,7 @@
         "longitude": 13.684,
         "distance": 9.58907674876661,
         "open": true,
-        "price": 1.669,
+        "price": 1.649,
         "openingHours": [
           {
             "label": "Montag",
@@ -788,7 +788,7 @@
         "longitude": 13.8077,
         "distance": 0.43273301179696894,
         "open": true,
-        "price": 1.679,
+        "price": 1.659,
         "openingHours": [
           {
             "label": "Montag",
@@ -852,7 +852,7 @@
         "longitude": 13.9628069,
         "distance": 12.545945176557474,
         "open": true,
-        "price": 1.683,
+        "price": 1.678,
         "openingHours": [
           {
             "label": "Montag",
@@ -916,7 +916,7 @@
         "longitude": 13.67553,
         "distance": 10.919617226499852,
         "open": true,
-        "price": 1.719,
+        "price": 1.709,
         "openingHours": [
           {
             "label": "Montag",
@@ -980,7 +980,7 @@
         "longitude": 13.633711338043213,
         "distance": 13.870658614961432,
         "open": true,
-        "price": 1.719,
+        "price": 1.709,
         "openingHours": [
           {
             "label": "Montag",
@@ -1043,7 +1043,7 @@
         "latitude": 47.13381007899696,
         "longitude": 13.684237484614444,
         "distance": 9.589403325933311,
-        "open": true,
+        "open": false,
         "price": null,
         "openingHours": [
           {
