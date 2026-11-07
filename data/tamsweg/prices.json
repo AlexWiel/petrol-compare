@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T18:03:38.177Z",
+  "updatedAt": "2026-11-07T10:23:06.367Z",
   "source": "E-Control Spritpreisrechner",
   "location": {
     "name": "Tamsweg",
@@ -273,7 +273,7 @@
         "latitude": 47.13381007899696,
         "longitude": 13.684237484614444,
         "distance": 9.589403325933311,
-        "open": false,
+        "open": true,
         "price": 2.149,
         "openingHours": [
           {
@@ -660,7 +660,7 @@
         "longitude": 13.80501,
         "distance": 0.6520692699002294,
         "open": true,
-        "price": 1.679,
+        "price": 1.659,
         "openingHours": [
           {
             "label": "Montag",
@@ -724,7 +724,7 @@
         "longitude": 13.684,
         "distance": 9.58907674876661,
         "open": true,
-        "price": 1.689,
+        "price": 1.669,
         "openingHours": [
           {
             "label": "Montag",
@@ -779,70 +779,6 @@
         "website": null
       },
       {
-        "id": 33412,
-        "name": "SOCAR Stadl an der Mur",
-        "address": "Murauer Straße 118",
-        "postalCode": "8862",
-        "city": "Stadl an der Mur",
-        "latitude": 47.0839155,
-        "longitude": 13.9628069,
-        "distance": 12.545945176557474,
-        "open": true,
-        "price": 1.694,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "06:00",
-            "to": "21:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "06:00",
-            "to": "21:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "06:00",
-            "to": "21:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "06:00",
-            "to": "21:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "06:00",
-            "to": "21:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "06:00",
-            "to": "21:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "07:00",
-            "to": "19:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "07:00",
-            "to": "19:00",
-            "order": 8
-          }
-        ],
-        "telephone": "4335342318",
-        "website": "https://www.socarenergy.at/"
-      },
-      {
         "id": 449140,
         "name": "Shell Austria",
         "address": "ZINSGASSE 20",
@@ -852,7 +788,7 @@
         "longitude": 13.8077,
         "distance": 0.43273301179696894,
         "open": true,
-        "price": 1.699,
+        "price": 1.679,
         "openingHours": [
           {
             "label": "Montag",
@@ -905,6 +841,70 @@
         ],
         "telephone": "064742286",
         "website": null
+      },
+      {
+        "id": 33412,
+        "name": "SOCAR Stadl an der Mur",
+        "address": "Murauer Straße 118",
+        "postalCode": "8862",
+        "city": "Stadl an der Mur",
+        "latitude": 47.0839155,
+        "longitude": 13.9628069,
+        "distance": 12.545945176557474,
+        "open": true,
+        "price": 1.683,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "07:00",
+            "to": "19:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "07:00",
+            "to": "19:00",
+            "order": 8
+          }
+        ],
+        "telephone": "4335342318",
+        "website": "https://www.socarenergy.at/"
       },
       {
         "id": 280,
@@ -1043,7 +1043,7 @@
         "latitude": 47.13381007899696,
         "longitude": 13.684237484614444,
         "distance": 9.589403325933311,
-        "open": false,
+        "open": true,
         "price": null,
         "openingHours": [
           {
