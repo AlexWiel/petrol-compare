@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T07:27:25.411Z",
+  "updatedAt": "2026-11-08T15:19:49.793Z",
   "source": "E-Control Spritpreisrechner",
   "location": {
     "name": "Tamsweg",
@@ -660,7 +660,7 @@
         "longitude": 13.80501,
         "distance": 0.6520692699002294,
         "open": true,
-        "price": 1.619,
+        "price": 1.589,
         "openingHours": [
           {
             "label": "Montag",
@@ -724,7 +724,7 @@
         "longitude": 13.684,
         "distance": 9.58907674876661,
         "open": true,
-        "price": 1.629,
+        "price": 1.599,
         "openingHours": [
           {
             "label": "Montag",
@@ -788,7 +788,7 @@
         "longitude": 13.8077,
         "distance": 0.43273301179696894,
         "open": true,
-        "price": 1.649,
+        "price": 1.629,
         "openingHours": [
           {
             "label": "Montag",
@@ -852,7 +852,7 @@
         "longitude": 13.9628069,
         "distance": 12.545945176557474,
         "open": true,
-        "price": 1.672,
+        "price": 1.667,
         "openingHours": [
           {
             "label": "Montag",
@@ -916,7 +916,7 @@
         "longitude": 13.67553,
         "distance": 10.919617226499852,
         "open": true,
-        "price": 1.709,
+        "price": 1.669,
         "openingHours": [
           {
             "label": "Montag",
@@ -980,7 +980,7 @@
         "longitude": 13.633711338043213,
         "distance": 13.870658614961432,
         "open": true,
-        "price": 1.709,
+        "price": null,
         "openingHours": [
           {
             "label": "Montag",
