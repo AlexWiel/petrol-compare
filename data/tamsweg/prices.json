@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T15:19:49.793Z",
+  "updatedAt": "2026-11-09T08:04:12.589Z",
   "source": "E-Control Spritpreisrechner",
   "location": {
     "name": "Tamsweg",
@@ -18,7 +18,7 @@
         "longitude": 13.9628069,
         "distance": 12.545945176557474,
         "open": true,
-        "price": 2.062,
+        "price": 2.059,
         "openingHours": [
           {
             "label": "Montag",
@@ -82,7 +82,7 @@
         "longitude": 13.80501,
         "distance": 0.6520692699002294,
         "open": true,
-        "price": 2.139,
+        "price": 2.119,
         "openingHours": [
           {
             "label": "Montag",
@@ -146,7 +146,7 @@
         "longitude": 13.795488,
         "distance": 1.258595822459027,
         "open": true,
-        "price": 2.139,
+        "price": 2.119,
         "openingHours": [
           {
             "label": "Montag",
@@ -199,6 +199,70 @@
         ],
         "telephone": "+43384738005016",
         "website": "http://rumpold.net"
+      },
+      {
+        "id": 27330,
+        "name": "Lagerhaus-Tankstelle 24 h",
+        "address": "Wöltingerstrasse 9a",
+        "postalCode": "5580",
+        "city": "Tamsweg",
+        "latitude": 47.1346161,
+        "longitude": 13.8082987,
+        "distance": 0.7242637082073807,
+        "open": true,
+        "price": 2.139,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 8
+          }
+        ],
+        "telephone": "4364746152",
+        "website": "http://www.salzburger-lagerhaus.at"
       },
       {
         "id": 1474151,
@@ -273,8 +337,8 @@
         "latitude": 47.13381007899696,
         "longitude": 13.684237484614444,
         "distance": 9.589403325933311,
-        "open": false,
-        "price": 2.149,
+        "open": true,
+        "price": null,
         "openingHours": [
           {
             "label": "Montag",
@@ -391,70 +455,6 @@
         ],
         "telephone": "064742286",
         "website": null
-      },
-      {
-        "id": 27330,
-        "name": "Lagerhaus-Tankstelle 24 h",
-        "address": "Wöltingerstrasse 9a",
-        "postalCode": "5580",
-        "city": "Tamsweg",
-        "latitude": 47.1346161,
-        "longitude": 13.8082987,
-        "distance": 0.7242637082073807,
-        "open": true,
-        "price": null,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 8
-          }
-        ],
-        "telephone": "4364746152",
-        "website": "http://www.salzburger-lagerhaus.at"
       },
       {
         "id": 280,
@@ -660,7 +660,7 @@
         "longitude": 13.80501,
         "distance": 0.6520692699002294,
         "open": true,
-        "price": 1.589,
+        "price": 1.569,
         "openingHours": [
           {
             "label": "Montag",
@@ -724,7 +724,7 @@
         "longitude": 13.684,
         "distance": 9.58907674876661,
         "open": true,
-        "price": 1.599,
+        "price": 1.579,
         "openingHours": [
           {
             "label": "Montag",
@@ -788,7 +788,7 @@
         "longitude": 13.8077,
         "distance": 0.43273301179696894,
         "open": true,
-        "price": 1.629,
+        "price": 1.619,
         "openingHours": [
           {
             "label": "Montag",
@@ -852,7 +852,7 @@
         "longitude": 13.9628069,
         "distance": 12.545945176557474,
         "open": true,
-        "price": 1.667,
+        "price": 1.656,
         "openingHours": [
           {
             "label": "Montag",
@@ -980,7 +980,7 @@
         "longitude": 13.633711338043213,
         "distance": 13.870658614961432,
         "open": true,
-        "price": null,
+        "price": 1.669,
         "openingHours": [
           {
             "label": "Montag",
@@ -1033,70 +1033,6 @@
         ],
         "telephone": "43647720010",
         "website": "http://www.lm-energy.at"
-      },
-      {
-        "id": 1484247,
-        "name": "Autohaus Griessner GmbH",
-        "address": "Markt 117",
-        "postalCode": "5570",
-        "city": "Mauterndorf",
-        "latitude": 47.13381007899696,
-        "longitude": 13.684237484614444,
-        "distance": 9.589403325933311,
-        "open": false,
-        "price": null,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "07:30",
-            "to": "17:30",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "07:30",
-            "to": "17:30",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "07:30",
-            "to": "17:30",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "07:30",
-            "to": "17:30",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "07:30",
-            "to": "17:30",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "08:00",
-            "to": "12:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "00:00",
-            "to": "00:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "00:00",
-            "to": "00:00",
-            "order": 8
-          }
-        ],
-        "telephone": null,
-        "website": null
       },
       {
         "id": 27330,
@@ -1161,6 +1097,70 @@
         ],
         "telephone": "4364746152",
         "website": "http://www.salzburger-lagerhaus.at"
+      },
+      {
+        "id": 1484247,
+        "name": "Autohaus Griessner GmbH",
+        "address": "Markt 117",
+        "postalCode": "5570",
+        "city": "Mauterndorf",
+        "latitude": 47.13381007899696,
+        "longitude": 13.684237484614444,
+        "distance": 9.589403325933311,
+        "open": true,
+        "price": null,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "07:30",
+            "to": "17:30",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "07:30",
+            "to": "17:30",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "07:30",
+            "to": "17:30",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "07:30",
+            "to": "17:30",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "07:30",
+            "to": "17:30",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "08:00",
+            "to": "12:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "00:00",
+            "to": "00:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "00:00",
+            "to": "00:00",
+            "order": 8
+          }
+        ],
+        "telephone": null,
+        "website": null
       },
       {
         "id": 1484625,
