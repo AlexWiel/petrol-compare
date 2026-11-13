@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T09:39:57.426Z",
+  "updatedAt": "2026-11-13T17:49:45.611Z",
   "source": "E-Control Spritpreisrechner",
   "location": {
     "name": "Tamsweg",
@@ -18,7 +18,7 @@
         "longitude": 13.9628069,
         "distance": 12.545945176557474,
         "open": true,
-        "price": 2.029,
+        "price": 2.099,
         "openingHours": [
           {
             "label": "Montag",
@@ -71,134 +71,6 @@
         ],
         "telephone": "4335342318",
         "website": "https://www.socarenergy.at/"
-      },
-      {
-        "id": 628750,
-        "name": "AVIA Xpress (Automaten-Tankstelle)",
-        "address": "Zinsgasse 21",
-        "postalCode": "5580",
-        "city": "Tamsweg",
-        "latitude": 47.132756,
-        "longitude": 13.80501,
-        "distance": 0.6520692699002294,
-        "open": true,
-        "price": 2.109,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 8
-          }
-        ],
-        "telephone": "43775287991",
-        "website": "http://www.avia-moser.at"
-      },
-      {
-        "id": 27330,
-        "name": "Lagerhaus-Tankstelle 24 h",
-        "address": "Wöltingerstrasse 9a",
-        "postalCode": "5580",
-        "city": "Tamsweg",
-        "latitude": 47.1346161,
-        "longitude": 13.8082987,
-        "distance": 0.7242637082073807,
-        "open": true,
-        "price": 2.109,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 8
-          }
-        ],
-        "telephone": "4364746152",
-        "website": "http://www.salzburger-lagerhaus.at"
       },
       {
         "id": 1477484,
@@ -265,6 +137,70 @@
         "website": "http://rumpold.net"
       },
       {
+        "id": 628750,
+        "name": "AVIA Xpress (Automaten-Tankstelle)",
+        "address": "Zinsgasse 21",
+        "postalCode": "5580",
+        "city": "Tamsweg",
+        "latitude": 47.132756,
+        "longitude": 13.80501,
+        "distance": 0.6520692699002294,
+        "open": true,
+        "price": 2.129,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 8
+          }
+        ],
+        "telephone": "43775287991",
+        "website": "http://www.avia-moser.at"
+      },
+      {
         "id": 1474151,
         "name": "eni24",
         "address": "Katschberg Bundesstrasse",
@@ -274,7 +210,7 @@
         "longitude": 13.684,
         "distance": 9.58907674876661,
         "open": true,
-        "price": 2.109,
+        "price": 2.129,
         "openingHours": [
           {
             "label": "Montag",
@@ -326,6 +262,70 @@
           }
         ],
         "telephone": "06478800",
+        "website": null
+      },
+      {
+        "id": 1484247,
+        "name": "Autohaus Griessner GmbH",
+        "address": "Markt 117",
+        "postalCode": "5570",
+        "city": "Mauterndorf",
+        "latitude": 47.13381007899696,
+        "longitude": 13.684237484614444,
+        "distance": 9.589403325933311,
+        "open": false,
+        "price": 2.139,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "07:30",
+            "to": "17:30",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "07:30",
+            "to": "17:30",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "07:30",
+            "to": "17:30",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "07:30",
+            "to": "17:30",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "07:30",
+            "to": "17:30",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "08:00",
+            "to": "12:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "00:00",
+            "to": "00:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "00:00",
+            "to": "00:00",
+            "order": 8
+          }
+        ],
+        "telephone": null,
         "website": null
       },
       {
@@ -393,68 +393,68 @@
         "website": null
       },
       {
-        "id": 1484247,
-        "name": "Autohaus Griessner GmbH",
-        "address": "Markt 117",
-        "postalCode": "5570",
-        "city": "Mauterndorf",
-        "latitude": 47.13381007899696,
-        "longitude": 13.684237484614444,
-        "distance": 9.589403325933311,
+        "id": 27330,
+        "name": "Lagerhaus-Tankstelle 24 h",
+        "address": "Wöltingerstrasse 9a",
+        "postalCode": "5580",
+        "city": "Tamsweg",
+        "latitude": 47.1346161,
+        "longitude": 13.8082987,
+        "distance": 0.7242637082073807,
         "open": true,
         "price": null,
         "openingHours": [
           {
             "label": "Montag",
-            "from": "07:30",
-            "to": "17:30",
+            "from": "00:00",
+            "to": "24:00",
             "order": 1
           },
           {
             "label": "Dienstag",
-            "from": "07:30",
-            "to": "17:30",
+            "from": "00:00",
+            "to": "24:00",
             "order": 2
           },
           {
             "label": "Mittwoch",
-            "from": "07:30",
-            "to": "17:30",
+            "from": "00:00",
+            "to": "24:00",
             "order": 3
           },
           {
             "label": "Donnerstag",
-            "from": "07:30",
-            "to": "17:30",
+            "from": "00:00",
+            "to": "24:00",
             "order": 4
           },
           {
             "label": "Freitag",
-            "from": "07:30",
-            "to": "17:30",
+            "from": "00:00",
+            "to": "24:00",
             "order": 5
           },
           {
             "label": "Samstag",
-            "from": "08:00",
-            "to": "12:00",
+            "from": "00:00",
+            "to": "24:00",
             "order": 6
           },
           {
             "label": "Sonntag",
             "from": "00:00",
-            "to": "00:00",
+            "to": "24:00",
             "order": 7
           },
           {
             "label": "Feiertag",
             "from": "00:00",
-            "to": "00:00",
+            "to": "24:00",
             "order": 8
           }
         ],
-        "telephone": null,
-        "website": null
+        "telephone": "4364746152",
+        "website": "http://www.salzburger-lagerhaus.at"
       },
       {
         "id": 280,
@@ -660,7 +660,7 @@
         "longitude": 13.80501,
         "distance": 0.6520692699002294,
         "open": true,
-        "price": 1.629,
+        "price": 1.659,
         "openingHours": [
           {
             "label": "Montag",
@@ -724,7 +724,7 @@
         "longitude": 13.684,
         "distance": 9.58907674876661,
         "open": true,
-        "price": 1.639,
+        "price": 1.669,
         "openingHours": [
           {
             "label": "Montag",
@@ -779,134 +779,6 @@
         "website": null
       },
       {
-        "id": 33412,
-        "name": "SOCAR Stadl an der Mur",
-        "address": "Murauer Straße 118",
-        "postalCode": "8862",
-        "city": "Stadl an der Mur",
-        "latitude": 47.0839155,
-        "longitude": 13.9628069,
-        "distance": 12.545945176557474,
-        "open": true,
-        "price": 1.649,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "06:00",
-            "to": "21:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "06:00",
-            "to": "21:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "06:00",
-            "to": "21:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "06:00",
-            "to": "21:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "06:00",
-            "to": "21:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "06:00",
-            "to": "21:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "07:00",
-            "to": "19:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "07:00",
-            "to": "19:00",
-            "order": 8
-          }
-        ],
-        "telephone": "4335342318",
-        "website": "https://www.socarenergy.at/"
-      },
-      {
-        "id": 449140,
-        "name": "Shell Austria",
-        "address": "ZINSGASSE 20",
-        "postalCode": "5580",
-        "city": "TAMSWEG",
-        "latitude": 47.13165,
-        "longitude": 13.8077,
-        "distance": 0.43273301179696894,
-        "open": true,
-        "price": 1.659,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 8
-          }
-        ],
-        "telephone": "064742286",
-        "website": null
-      },
-      {
         "id": 1484247,
         "name": "Autohaus Griessner GmbH",
         "address": "Markt 117",
@@ -915,7 +787,7 @@
         "latitude": 47.13381007899696,
         "longitude": 13.684237484614444,
         "distance": 9.589403325933311,
-        "open": true,
+        "open": false,
         "price": 1.679,
         "openingHours": [
           {
@@ -971,6 +843,70 @@
         "website": null
       },
       {
+        "id": 449140,
+        "name": "Shell Austria",
+        "address": "ZINSGASSE 20",
+        "postalCode": "5580",
+        "city": "TAMSWEG",
+        "latitude": 47.13165,
+        "longitude": 13.8077,
+        "distance": 0.43273301179696894,
+        "open": true,
+        "price": 1.689,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 8
+          }
+        ],
+        "telephone": "064742286",
+        "website": null
+      },
+      {
         "id": 27330,
         "name": "Lagerhaus-Tankstelle 24 h",
         "address": "Wöltingerstrasse 9a",
@@ -980,7 +916,7 @@
         "longitude": 13.8082987,
         "distance": 0.7242637082073807,
         "open": true,
-        "price": null,
+        "price": 1.689,
         "openingHours": [
           {
             "label": "Montag",
@@ -1044,7 +980,7 @@
         "longitude": 13.67553,
         "distance": 10.919617226499852,
         "open": true,
-        "price": null,
+        "price": 1.689,
         "openingHours": [
           {
             "label": "Montag",
@@ -1099,6 +1035,70 @@
         "website": "www.omv.com"
       },
       {
+        "id": 33412,
+        "name": "SOCAR Stadl an der Mur",
+        "address": "Murauer Straße 118",
+        "postalCode": "8862",
+        "city": "Stadl an der Mur",
+        "latitude": 47.0839155,
+        "longitude": 13.9628069,
+        "distance": 12.545945176557474,
+        "open": true,
+        "price": 1.689,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "06:00",
+            "to": "21:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "07:00",
+            "to": "19:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "07:00",
+            "to": "19:00",
+            "order": 8
+          }
+        ],
+        "telephone": "4335342318",
+        "website": "https://www.socarenergy.at/"
+      },
+      {
         "id": 7699,
         "name": "BP",
         "address": "Murtaler Straße 579",
@@ -1108,7 +1108,7 @@
         "longitude": 13.633711338043213,
         "distance": 13.870658614961432,
         "open": true,
-        "price": null,
+        "price": 1.689,
         "openingHours": [
           {
             "label": "Montag",
