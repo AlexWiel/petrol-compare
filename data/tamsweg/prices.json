@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T17:49:45.611Z",
+  "updatedAt": "2026-11-14T14:14:44.178Z",
   "source": "E-Control Spritpreisrechner",
   "location": {
     "name": "Tamsweg",
@@ -660,7 +660,7 @@
         "longitude": 13.80501,
         "distance": 0.6520692699002294,
         "open": true,
-        "price": 1.659,
+        "price": 1.619,
         "openingHours": [
           {
             "label": "Montag",
@@ -724,7 +724,7 @@
         "longitude": 13.684,
         "distance": 9.58907674876661,
         "open": true,
-        "price": 1.669,
+        "price": 1.629,
         "openingHours": [
           {
             "label": "Montag",
@@ -776,6 +776,70 @@
           }
         ],
         "telephone": "06478800",
+        "website": null
+      },
+      {
+        "id": 449140,
+        "name": "Shell Austria",
+        "address": "ZINSGASSE 20",
+        "postalCode": "5580",
+        "city": "TAMSWEG",
+        "latitude": 47.13165,
+        "longitude": 13.8077,
+        "distance": 0.43273301179696894,
+        "open": true,
+        "price": 1.649,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 8
+          }
+        ],
+        "telephone": "064742286",
         "website": null
       },
       {
@@ -840,70 +904,6 @@
           }
         ],
         "telephone": null,
-        "website": null
-      },
-      {
-        "id": 449140,
-        "name": "Shell Austria",
-        "address": "ZINSGASSE 20",
-        "postalCode": "5580",
-        "city": "TAMSWEG",
-        "latitude": 47.13165,
-        "longitude": 13.8077,
-        "distance": 0.43273301179696894,
-        "open": true,
-        "price": 1.689,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 8
-          }
-        ],
-        "telephone": "064742286",
         "website": null
       },
       {
