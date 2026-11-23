@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T16:21:42.399Z",
+  "updatedAt": "2026-11-23T14:49:37.229Z",
   "source": "E-Control Spritpreisrechner",
   "location": {
     "name": "Tamsweg",
@@ -18,7 +18,7 @@
         "longitude": 13.9628069,
         "distance": 12.545945176557474,
         "open": true,
-        "price": 1.972,
+        "price": 1.989,
         "openingHours": [
           {
             "label": "Montag",
@@ -82,7 +82,7 @@
         "longitude": 13.80501,
         "distance": 0.6520692699002294,
         "open": true,
-        "price": 2.049,
+        "price": 2.039,
         "openingHours": [
           {
             "label": "Montag",
@@ -135,6 +135,70 @@
         ],
         "telephone": "43775287991",
         "website": "http://www.avia-moser.at"
+      },
+      {
+        "id": 1477484,
+        "name": "Rumpold",
+        "address": "Gewerbepark",
+        "postalCode": "5580",
+        "city": "Tamsweg",
+        "latitude": 47.133005,
+        "longitude": 13.795488,
+        "distance": 1.258595822459027,
+        "open": true,
+        "price": 2.039,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 8
+          }
+        ],
+        "telephone": "+43384738005016",
+        "website": "http://rumpold.net"
       },
       {
         "id": 1474151,
@@ -263,70 +327,6 @@
         ],
         "telephone": "4364746152",
         "website": "http://www.salzburger-lagerhaus.at"
-      },
-      {
-        "id": 1477484,
-        "name": "Rumpold",
-        "address": "Gewerbepark",
-        "postalCode": "5580",
-        "city": "Tamsweg",
-        "latitude": 47.133005,
-        "longitude": 13.795488,
-        "distance": 1.258595822459027,
-        "open": true,
-        "price": 2.059,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 8
-          }
-        ],
-        "telephone": "+43384738005016",
-        "website": "http://rumpold.net"
       },
       {
         "id": 449140,
@@ -529,7 +529,7 @@
         "latitude": 47.13381007899696,
         "longitude": 13.684237484614444,
         "distance": 9.589403325933311,
-        "open": false,
+        "open": true,
         "price": null,
         "openingHours": [
           {
@@ -651,134 +651,6 @@
     ],
     "SUP": [
       {
-        "id": 628750,
-        "name": "AVIA Xpress (Automaten-Tankstelle)",
-        "address": "Zinsgasse 21",
-        "postalCode": "5580",
-        "city": "Tamsweg",
-        "latitude": 47.132756,
-        "longitude": 13.80501,
-        "distance": 0.6520692699002294,
-        "open": true,
-        "price": 1.519,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "06:00",
-            "to": "22:00",
-            "order": 8
-          }
-        ],
-        "telephone": "43775287991",
-        "website": "http://www.avia-moser.at"
-      },
-      {
-        "id": 1474151,
-        "name": "eni24",
-        "address": "Katschberg Bundesstrasse",
-        "postalCode": "5570",
-        "city": "Mauterndorf",
-        "latitude": 47.1295,
-        "longitude": 13.684,
-        "distance": 9.58907674876661,
-        "open": true,
-        "price": 1.529,
-        "openingHours": [
-          {
-            "label": "Montag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 1
-          },
-          {
-            "label": "Dienstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 2
-          },
-          {
-            "label": "Mittwoch",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 3
-          },
-          {
-            "label": "Donnerstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 4
-          },
-          {
-            "label": "Freitag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 5
-          },
-          {
-            "label": "Samstag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 6
-          },
-          {
-            "label": "Sonntag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 7
-          },
-          {
-            "label": "Feiertag",
-            "from": "00:00",
-            "to": "24:00",
-            "order": 8
-          }
-        ],
-        "telephone": "06478800",
-        "website": null
-      },
-      {
         "id": 449140,
         "name": "Shell Austria",
         "address": "ZINSGASSE 20",
@@ -788,7 +660,7 @@
         "longitude": 13.8077,
         "distance": 0.43273301179696894,
         "open": true,
-        "price": 1.559,
+        "price": 1.609,
         "openingHours": [
           {
             "label": "Montag",
@@ -843,6 +715,70 @@
         "website": null
       },
       {
+        "id": 628750,
+        "name": "AVIA Xpress (Automaten-Tankstelle)",
+        "address": "Zinsgasse 21",
+        "postalCode": "5580",
+        "city": "Tamsweg",
+        "latitude": 47.132756,
+        "longitude": 13.80501,
+        "distance": 0.6520692699002294,
+        "open": true,
+        "price": 1.609,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "06:00",
+            "to": "22:00",
+            "order": 8
+          }
+        ],
+        "telephone": "43775287991",
+        "website": "http://www.avia-moser.at"
+      },
+      {
         "id": 33412,
         "name": "SOCAR Stadl an der Mur",
         "address": "Murauer Straße 118",
@@ -852,7 +788,7 @@
         "longitude": 13.9628069,
         "distance": 12.545945176557474,
         "open": true,
-        "price": 1.567,
+        "price": 1.619,
         "openingHours": [
           {
             "label": "Montag",
@@ -905,6 +841,70 @@
         ],
         "telephone": "4335342318",
         "website": "https://www.socarenergy.at/"
+      },
+      {
+        "id": 1474151,
+        "name": "eni24",
+        "address": "Katschberg Bundesstrasse",
+        "postalCode": "5570",
+        "city": "Mauterndorf",
+        "latitude": 47.1295,
+        "longitude": 13.684,
+        "distance": 9.58907674876661,
+        "open": true,
+        "price": 1.629,
+        "openingHours": [
+          {
+            "label": "Montag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 1
+          },
+          {
+            "label": "Dienstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 2
+          },
+          {
+            "label": "Mittwoch",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 3
+          },
+          {
+            "label": "Donnerstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 4
+          },
+          {
+            "label": "Freitag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 5
+          },
+          {
+            "label": "Samstag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 6
+          },
+          {
+            "label": "Sonntag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 7
+          },
+          {
+            "label": "Feiertag",
+            "from": "00:00",
+            "to": "24:00",
+            "order": 8
+          }
+        ],
+        "telephone": "06478800",
+        "website": null
       },
       {
         "id": 27330,
@@ -1107,7 +1107,7 @@
         "latitude": 47.13381007899696,
         "longitude": 13.684237484614444,
         "distance": 9.589403325933311,
-        "open": false,
+        "open": true,
         "price": null,
         "openingHours": [
           {
