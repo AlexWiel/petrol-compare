@@ -47,7 +47,7 @@ async function initLocation() {
   const loc = locations.find((l) => l.id === LOCATION_ID);
   if (!loc) throw new Error(`Unbekannter Standort: ${LOCATION_ID}`);
 
-  CONFIG.location = { name: loc.name, latitude: loc.latitude, longitude: loc.longitude };
+  CONFIG.location = { name: loc.name, latitude: loc.latitude, longitude: loc.longitude, postalCodes: loc.postalCodes ?? null };
   CONFIG.dataUrl = new URL(`${loc.dataDir}/prices.json`, BASE).href;
   CONFIG.historyUrl = new URL(`${loc.dataDir}/history.json`, BASE).href;
 
@@ -90,13 +90,15 @@ function normalize(station, fuelType) {
 }
 
 async function loadLive() {
-  const { latitude, longitude } = CONFIG.location;
+  const { latitude, longitude, postalCodes } = CONFIG.location;
   const fuels = {};
   for (const fuelType of Object.keys(CONFIG.fuels)) {
     const url = `${CONFIG.liveApi}?latitude=${latitude}&longitude=${longitude}&fuelType=${fuelType}&includeClosed=true`;
     const res = await fetch(url);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    fuels[fuelType] = (await res.json()).map((s) => normalize(s, fuelType));
+    // Gleicher PLZ-Filter wie in scripts/fetch-prices.mjs
+    fuels[fuelType] = (await res.json()).map((s) => normalize(s, fuelType))
+      .filter((s) => !postalCodes || postalCodes.includes(String(s.postalCode).trim()));
   }
   return { updatedAt: new Date().toISOString(), source: "E-Control (live)", location: CONFIG.location, fuels, live: true };
 }
@@ -393,8 +395,9 @@ function infoModal() {
     <p class="text-xs font-semibold uppercase tracking-widest text-cyan-300/80">Info</p>
     <h2 class="mt-1 text-2xl font-extrabold">Über diese Seite</h2>
     <div class="mt-4 space-y-3 text-sm leading-relaxed text-slate-300">
-      <p>Verglichen werden <strong>Diesel</strong> und <strong>Super 95</strong> der öffentlichen Tankstellen im Umkreis von
-      <strong>${esc(CONFIG.location?.name ?? "–")}</strong>. Die Daten stammen aus dem amtlichen
+      <p>Verglichen werden <strong>Diesel</strong> und <strong>Super 95</strong> der öffentlichen Tankstellen ${CONFIG.location?.postalCodes
+        ? `mit Postleitzahl <strong>${esc(CONFIG.location.postalCodes.join(", "))} ${esc(CONFIG.location.name)}</strong>`
+        : `im Umkreis von <strong>${esc(CONFIG.location?.name ?? "–")}</strong>`}. Die Daten stammen aus dem amtlichen
       <a class="underline" href="https://www.spritpreisrechner.at" target="_blank" rel="noopener">Spritpreisrechner der E-Control</a>.</p>
       <p>Die Preise werden automatisch dreimal täglich aktualisiert – je einmal in den Zeitfenstern
       <strong>${times.join(", ")} Uhr</strong> (Vormittag, Mittag, später Nachmittag). In Österreich dürfen Tankstellen ihre Preise nur einmal täglich um 12:00 Uhr erhöhen.</p>

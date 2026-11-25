@@ -27,6 +27,7 @@ Klagenfurt Nord vergleicht. Datenquelle: [E-Control Spritpreisrechner](https://w
 
 Weiteren Standort hinzufügen:
 1. Eintrag in `locations.json` (`id`, `name`, `path` = Unterordner mit `/`, `dataDir`, `latitude`, `longitude`).
+   Optional `postalCodes` (z. B. `["5580"]`): nur Tankstellen mit diesen Postleitzahlen anzeigen – Tamsweg nutzt das.
 2. `tamsweg/index.html` in den neuen Ordner kopieren und `data-location`, `<title>` und Meta-Description anpassen.
 3. Die Action legt beim nächsten Lauf `data/<ort>/prices.json` und `history.json` automatisch an.
 
